@@ -1,0 +1,48 @@
+.hippo-nav-menu-feature-end {
+    border-bottom : solid 1px #DFDFDF;
+    }
+
+.select2-dropdown {
+    z-index : 999999999;
+    }
+
+.select2 {
+    width : 250px !important;
+    }
+
+.button.button-danger {
+
+    color            : #FFFFFF;
+    background-color : #D9534F;
+    border-color     : #D43F3A;
+
+    box-shadow       : inset 0 1px 0 rgba(120, 200, 230, .5), 0 1px 0 rgba(0, 0, 0, .15);
+
+    }
+
+.button.button-danger:hover,
+.button-danger:focus,
+.button-danger.focus,
+.button-danger:active,
+.button-danger.active {
+    color            : #FFFFFF;
+    background-color : #C9302C;
+    border-color     : #AC2925;
+    }
+
+.additional-menu-field {
+    padding : 5px 0;
+    }
+
+[data-depends] {
+    display : none;
+    }
+
+/*
+body #TB_window{
+    position: absolute;
+    }
+
+body.modal-open{
+    overflow: auto;
+    }*/

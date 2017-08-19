@@ -1,0 +1,15 @@
+.redux-main .form-table.hippo-repeatable-fields-table {
+    margin : 10px 0;
+    }
+
+.hippo-repeatable-fields td:first-child {
+    padding-left : 40px;
+    }
+
+.form-table tr.hippo-repeatable-fields:nth-last-child(2) {
+    border : none;
+    }
+
+.hippo-repeatable-fields-table-add-new {
+    margin : 10px 0;
+    }

@@ -1,0 +1,107 @@
+// Button effects
+
+.waves-effect {
+  overflow : hidden;
+  position : relative;
+  z-index  : 0;
+  }
+
+.ripple {
+  position          : absolute;
+  background        : rgba(0, 0, 0, .25);
+  border-radius     : 100%;
+  transform         : scale(0);
+  opacity           : 0;
+  z-index           : -1;
+  pointer-events    : none;
+  -webkit-animation : ripple .75s ease-out;
+  -moz-animation    : ripple .75s ease-out;
+  animation         : ripple .75s ease-out;
+  }
+
+@-webkit-keyframes ripple {
+  from {
+    opacity : 1;
+    }
+  to {
+    transform : scale(2);
+    opacity   : 0;
+    }
+  }
+
+@-moz-keyframes ripple {
+  from {
+    opacity : 1;
+    }
+  to {
+    transform : scale(2);
+    opacity   : 0;
+    }
+  }
+
+@keyframes ripple {
+  from {
+    opacity : 1;
+    }
+  to {
+    transform : scale(2);
+    opacity   : 0;
+    }
+  }
+
+/*input style*/
+
+.input-field {
+  padding  : 30px 0 0 0;
+  position : relative;
+
+  &:before,
+  &:after {
+    content          : "";
+    position         : absolute;
+    display          : block;
+    width            : 100%;
+    height           : 1px;
+    background-color : @border-color;
+    bottom           : 0;
+    left             : 0;
+    transition       : all 0.5s;
+    }
+
+  &:after {
+    background-color : fade(@theme-color, 50%);
+    transform        : scaleX(0);
+    }
+
+  label {
+    display    : block;
+    font-size  : 16px;
+    transform  : translateY(25px);
+    color      : @content-color;
+    transition : all 0.5s;
+    }
+
+  .form-control {
+    position   : relative;
+    background : transparent;
+    width      : 100%;
+    border     : none;
+    outline    : none;
+    padding    : 8px 0;
+    font-size  : 16px;
+    }
+
+  &.is-active::after {
+    transform : scaleX(1);
+    }
+
+  &.is-active label {
+    color : @light-gray;
+    }
+
+  &.is-completed label {
+    font-size : 12px;
+    transform : translateY(0);
+    }
+
+  }

@@ -1,0 +1,115 @@
+@white : #FFFFFF;
+@black : #000000;
+@border-color : #F2F2F2;
+@dark-gray : #7F7F7F;
+@light-gray : #C0C0C0;
+@green : #5CB85C;
+@light-blue : #5BC0DE;
+@red : #D9534F;
+@yellow : #F0AD4E;
+@blue : #0000FF;
+
+@form-label-color : #555;
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+//** Deprecated `@screen-xs` as of v3.0.1
+@screen-xs : 480px;
+//** Deprecated `@screen-xs-min` as of v3.2.0
+@screen-xs-min : @screen-xs;
+//** Deprecated `@screen-phone` as of v3.0.1
+@screen-phone : @screen-xs-min;
+
+// Small screen / tablet
+//** Deprecated `@screen-sm` as of v3.0.1
+@screen-sm : 768px;
+@screen-sm-min : @screen-sm;
+//** Deprecated `@screen-tablet` as of v3.0.1
+@screen-tablet : @screen-sm-min;
+
+// Medium screen / desktop
+//** Deprecated `@screen-md` as of v3.0.1
+@screen-md : 992px;
+@screen-md-min : @screen-md;
+//** Deprecated `@screen-desktop` as of v3.0.1
+@screen-desktop : @screen-md-min;
+
+// Large screen / wide desktop
+//** Deprecated `@screen-lg` as of v3.0.1
+@screen-lg : 1200px;
+@screen-lg-min : @screen-lg;
+//** Deprecated `@screen-lg-desktop` as of v3.0.1
+@screen-lg-desktop : @screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-xs-max : (@screen-sm-min - 1);
+@screen-sm-max : (@screen-md-min - 1);
+@screen-md-max : (@screen-lg-min - 1);
+
+//  For Large devices Desktops
+@lg-screen : ~"only screen and (max-width:@{screen-lg})";
+@lg-min-screen : ~"only screen and (min-width:@{screen-lg-min})"; // 1200 and up
+
+@lg-custom-screen : ~"only screen and (min-width:1600px)"; // custom
+
+//  For Medium devices Desktops
+@md-screen : ~"only screen and (max-width:@{screen-md})";
+@md-min-screen : ~"only screen and (min-width:@{screen-md})"; // 992 and up
+
+//  For Small devices Tablets
+@sm-screen : ~"only screen and (max-width:@{screen-sm})";
+@sm-min-screen : ~"only screen and (min-width:@{screen-sm})"; // 768 and up
+
+// For Medium Phones
+@ms-screen : ~"only screen and (max-width : @{screen-ms-max})";
+@ms-min-screen : ~"only screen and (min-width : @{screen-ms-max})"; // 568 and up
+
+//  For Small Phones
+@xs-screen : ~"only screen and (max-width:@{screen-xs-max-new})";
+@xs-min-screen : ~"only screen and (min-width:@{screen-xs})"; // 480 and up
+
+//  For Retina
+@retina-screen : ~"only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5)";
+
+// Cubic
+@easeInCubic : cubic-bezier(0.550, 0.055, 0.675, 0.190);
+@easeOutCubic : cubic-bezier(0.215, 0.610, 0.355, 1.000);
+@easeInOutCubic : cubic-bezier(0.645, 0.045, 0.355, 1.000);
+
+// Circ
+@easeInCirc : cubic-bezier(0.600, 0.040, 0.980, 0.335);
+@easeOutCirc : cubic-bezier(0.075, 0.820, 0.165, 1.000);
+@easeInOutCirc : cubic-bezier(0.785, 0.135, 0.150, 0.860);
+
+// Expo
+@easeInExpo : cubic-bezier(0.950, 0.050, 0.795, 0.035);
+@easeOutExpo : cubic-bezier(0.190, 1.000, 0.220, 1.000);
+@easeInOutExpo : cubic-bezier(1.000, 0.000, 0.000, 1.000);
+
+// Quad
+@easeInQuad : cubic-bezier(0.550, 0.085, 0.680, 0.530);
+@easeOutQuad : cubic-bezier(0.250, 0.460, 0.450, 0.940);
+@easeInOutQuad : cubic-bezier(0.455, 0.030, 0.515, 0.955);
+
+// Quart
+@easeInQuart : cubic-bezier(0.895, 0.030, 0.685, 0.220);
+@easeOutQuart : cubic-bezier(0.165, 0.840, 0.440, 1.000);
+@easeInOutQuart : cubic-bezier(0.770, 0.000, 0.175, 1.000);
+
+// Quint
+@easeInQuint : cubic-bezier(0.755, 0.050, 0.855, 0.060);
+@easeOutQuint : cubic-bezier(0.230, 1.000, 0.320, 1.000);
+@easeInOutQuint : cubic-bezier(0.860, 0.000, 0.070, 1.000);
+
+// Sine
+@easeInSine : cubic-bezier(0.470, 0.000, 0.745, 0.715);
+@easeOutSine : cubic-bezier(0.390, 0.575, 0.565, 1.000);
+@easeInOutSine : cubic-bezier(0.445, 0.050, 0.550, 0.950);
+
+// Back
+@easeInBack : cubic-bezier(0.600, -0.280, 0.735, 0.045);
+@easeOutBack : cubic-bezier(0.175, 0.885, 0.320, 1.275);
+@easeInOutBack : cubic-bezier(0.680, -0.550, 0.265, 1.550);

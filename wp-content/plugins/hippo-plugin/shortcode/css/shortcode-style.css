@@ -1,0 +1,176 @@
+/*------------------------------------*\
+
+ Name: shortcode-style.css
+ Author: Theme Hippo
+ Author URI: http://www.themehippo.com
+ Version: 0.1
+
+\*------------------------------------*/
+
+#TB_ajaxContent {
+    height           : 90% !important;
+    background-color : #FFFFFF;
+    }
+
+#shortcodes {
+    margin : 0 auto;
+    width  : 100%;
+    }
+
+.shortcode-header-wrapper span {
+    display        : inline-block;
+    vertical-align : middle;
+
+    }
+
+.sort-shortcode-item {
+    cursor : move;
+    }
+
+.clone-shortcode-item {
+    cursor : copy;
+    }
+
+.shortcode-header {
+    cursor : pointer;
+    }
+
+.remove-shortcode-item {
+    cursor : pointer;
+    }
+
+.shortcodes label {
+    display : block;
+    }
+
+.shortcode-header-wrapper {
+    padding : 15px 5px;
+    outline : none;
+    }
+
+.shortcode-header-wrapper.active {
+    background-color : #B8B6EE;
+    }
+
+.shortcode-header {
+    display  : inline-block;
+    overflow : hidden;
+    width    : 85%;
+    height   : 20px;
+    }
+
+.shortcode-selector {
+    border-bottom : 1px solid #CCCCCC;
+    }
+
+.shortcode-wrapper {
+    margin  : 0;
+    padding : 0;
+    }
+
+.shortcode-wrapper > li {
+
+    border-bottom : 1px solid #CCCCCC;
+    }
+
+#cancel-shortcode {
+    float : right;
+    }
+
+#insert-shortcode-loader {
+    float          : none;
+    vertical-align : middle;
+    margin         : 0px;
+
+    }
+
+.shortcode-wrapper > .shortcode-item {
+    border           : 1px solid #CCCCCC;
+    background-color : #FFFFFF;
+    }
+
+.shortcode-container > li {
+    border-top : 1px solid #CCCCCC;
+    padding    : 10px;
+    }
+
+.shortcode-header-wrapper > span {
+    padding : 0 5px;
+    }
+
+.shortcode-item > ul {
+
+    }
+
+.remove-shortcode-item {
+    opacity        : 1;
+    -ms-filter     : "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter         : alpha(opacity=100);
+    pointer-events : all;
+    }
+
+.shortcode-item:first-child > div > .remove-shortcode-item {
+    opacity        : 0;
+    -ms-filter     : "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter         : alpha(opacity=0);
+    pointer-events : none;
+    }
+
+#em-shortcode-form label .label {
+    width          : 220px;
+    display        : inline-block;
+    vertical-align : middle;
+    padding        : 10px;
+    }
+
+#em-shortcode-form .input-field {
+
+    display        : inline-block;
+    vertical-align : top;
+    }
+
+#em-shortcode-form .input-field-hint {
+
+    display    : inline-block;
+    font-style : italic;
+    width      : 20%;
+    }
+
+#em-shortcode-form .description {
+    display     : block;
+    margin-left : 250px;
+    }
+
+.hippo-media-clear {
+    margin : 6px 10px;
+    }
+
+.display-none {
+    display : none;
+    }
+
+.display {
+    display : inline-block;
+    }
+
+#em-shortcode-form label .wp-media-buttons-icon {
+    margin : 0 !important;
+    }
+
+#em-shortcode-form .spinner {
+    float          : none;
+    vertical-align : middle;
+    margin         : 0px;
+    height         : 30px;
+    }
+
+i.mce-i-icon {
+    font: 400 20px/1 dashicons;
+    padding: 0;
+    vertical-align: top;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: -2px;
+    padding-right: 2px
+    }

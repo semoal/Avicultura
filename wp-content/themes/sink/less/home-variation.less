@@ -1,0 +1,216 @@
+/*---------------------------------
+  HOME PAGE CAROUSEL
+---------------------------------*/
+.hippo-carousel {
+
+  .carousel-text {
+    position : absolute;
+    width    : 35%;
+    left     : 55px;
+    bottom   : 80px;
+
+    h2 {
+      font-size      : 30px;
+      line-height    : 36px;
+      text-transform : uppercase;
+      letter-spacing : 3px;
+      color          : @dark-gray;
+      margin         : 0 0 30px;
+      @media @ms-screen {
+        font-size   : 20px;
+        line-height : 25px;
+        }
+      }
+
+    a {
+      font-size      : 14px;
+      text-transform : uppercase;;
+      font-weight    : 700;
+      letter-spacing : 2px;
+      color          : @link-color;
+      .transition(color .3s);
+
+      &:hover {
+        color : darken(@link-color, 10%);
+        }
+      }
+    @media @ms-screen {
+      position : absolute;
+      width    : 60%;
+      left     : 55px;
+      bottom   : 10px;
+      }
+    }
+
+  .carousel-control-wrapper {
+
+    .carousel-control {
+      width            : 40px;
+      height           : 40px;
+      line-height      : 40px;
+      font-size        : 18px;
+      left             : 55px;
+      border           : 2px solid @white;
+      .rounded(100%);
+      color            : @heading-color;
+      text-shadow      : none;
+      background-image : none;
+      .transition(all .3s);
+      filter           : alpha(opacity=30);
+      opacity          : .3;
+
+      &:focus,
+      &:hover {
+        filter  : alpha(opacity=100);
+        opacity : 1;
+        }
+
+      &.left {
+        top : 90px;
+        }
+      &.right {
+        top : 140px;
+        }
+      @media @sm-screen {
+        left : 80%;
+        }
+      }
+    }
+  }
+
+.carousel-control:focus, .carousel-control:hover {
+  color           : #FFFFFF;
+  text-decoration : none;
+  filter          : alpha(opacity=90);
+  outline         : 0;
+  opacity         : 1;
+  }
+
+/*---------------------------------
+  HOME PAGE CAROUSEL ANIMATION
+---------------------------------*/
+
+.animation-delay-3 {
+  -webkit-animation-delay : .3s !important;
+  -moz-animation-delay    : .3s !important;
+  -ms-animation-delay     : .3s !important;
+  -o-animation-delay      : .3s !important;
+  animation-delay         : .3s !important;
+  }
+
+.animation-delay-6 {
+  -webkit-animation-delay : .6s !important;
+  -moz-animation-delay    : .6s !important;
+  -ms-animation-delay     : .6s !important;
+  -o-animation-delay      : .6s !important;
+  animation-delay         : .6s !important;
+  }
+
+.animation-delay-9 {
+  -webkit-animation-delay : .9s !important;
+  -moz-animation-delay    : .9s !important;
+  -ms-animation-delay     : .9s !important;
+  -o-animation-delay      : .9s !important;
+  animation-delay         : .9s !important;
+  }
+
+.animation-delay-12 {
+  -webkit-animation-delay : 1.2s !important;
+  -moz-animation-delay    : 1.2s !important;
+  -ms-animation-delay     : 1.2s !important;
+  -o-animation-delay      : 1.2s !important;
+  animation-delay         : 1.2s !important;
+  }
+
+.animation-delay-15 {
+  -webkit-animation-delay : 1.5s !important;
+  -moz-animation-delay    : 1.5s !important;
+  -ms-animation-delay     : 1.5s !important;
+  -o-animation-delay      : 1.5s !important;
+  animation-delay         : 1.5s !important;
+  }
+
+.animation-delay-18 {
+  -webkit-animation-delay : 1.8s !important;
+  -moz-animation-delay    : 1.8s !important;
+  -ms-animation-delay     : 1.8s !important;
+  -o-animation-delay      : 1.8s !important;
+  animation-delay         : 1.8s !important;
+  }
+
+.animation-delay-21 {
+  -webkit-animation-delay : 2.1s !important;
+  -moz-animation-delay    : 2.1s !important;
+  -ms-animation-delay     : 2.1s !important;
+  -o-animation-delay      : 2.1s !important;
+  animation-delay         : 2.1s !important;
+  }
+
+.animation-delay-24 {
+  -webkit-animation-delay : 2.4s !important;
+  -moz-animation-delay    : 2.4s !important;
+  -ms-animation-delay     : 2.4s !important;
+  -o-animation-delay      : 2.4s !important;
+  animation-delay         : 2.4s !important;
+  }
+
+.animation-delay-27 {
+  -webkit-animation-delay : 2.6s !important;
+  -moz-animation-delay    : 2.6s !important;
+  -ms-animation-delay     : 2.6s !important;
+  -o-animation-delay      : 2.6s !important;
+  animation-delay         : 2.6s !important;
+  }
+
+.animation-delay-30 {
+  -webkit-animation-delay : 3s !important;
+  -moz-animation-delay    : 3s !important;
+  -ms-animation-delay     : 3s !important;
+  -o-animation-delay      : 3s !important;
+  animation-delay         : 3s !important;
+  }
+
+/*---------------------------------
+  HOME PAGE FULL
+---------------------------------*/
+.page-template-template-home-fullwidth {
+  .contents {
+    padding : 0;
+    }
+  .header {
+    padding-left  : 70px;
+    padding-right : 70px;
+
+    /*Media Query*/
+    @media @md-screen {
+      padding-left  : 0;
+      padding-right : 0;
+      }
+    }
+
+  /* Header Three */
+  .header-style-three {
+    margin-bottom : 10px;
+    .logo-bar {
+      margin-bottom : 20px;
+      }
+
+    .mainnav {
+      border-bottom : 0;
+      }
+    }
+
+  /* Header Four */
+  .header-style-four {
+    padding-top : 45px;
+    }
+
+  .content-inner .section > div {
+    > .row {
+      margin : 0;
+      > div {
+        padding : 0;
+        }
+      }
+    }
+  }

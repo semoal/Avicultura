@@ -1,0 +1,155 @@
+// Medium Small breakpoint
+
+// Limit: 768px - 568px
+
+@screen-ms : 568px;
+@screen-ms-min : @screen-ms;
+@screen-ms-max : (@screen-sm-min - 1);
+// 767
+
+// Redefined Extra Small max value
+@screen-xs-max-new : (@screen-ms-min - 1);
+// 566
+
+// Extra small grid
+//
+// Columns, offsets, pushes, and pulls for extra small devices like
+// smartphones.
+
+.col-ms-1,
+.col-ms-2,
+.col-ms-3,
+.col-ms-4,
+.col-ms-5,
+.col-ms-6,
+.col-ms-7,
+.col-ms-8,
+.col-ms-9,
+.col-ms-10,
+.col-ms-11,
+.col-ms-12 {
+  position      : relative;
+  // Prevent columns from collapsing when empty
+  min-height    : 1px;
+  // Inner gutter via padding
+  padding-left  : (@grid-gutter-width / 2);
+  padding-right : (@grid-gutter-width / 2);
+  }
+
+// Misc. class adjustments for col-ms
+
+@media (min-width : @screen-ms-min) and (max-width : @screen-ms-max) {
+  .container {
+    max-width : @screen-sm - 20px;
+    }
+  }
+
+// col-ms grid
+
+@media (min-width : @screen-ms-min) and (max-width : @screen-ms-max) {
+  .make-grid(ms);
+  }
+
+// Visibility utilities
+
+// set to no display so we have a fresh start
+
+.visible-ms {
+  .responsive-invisibility();
+  }
+
+.visible-ms-block,
+.visible-ms-inline,
+.visible-ms-inline-block {
+  display : none !important;
+  }
+
+// SM VISIBILITY FIX FOR MS
+
+@media (min-width : @screen-sm-min) and (max-width : @screen-sm-max) {
+  .visible-sm {
+    .responsive-visibility();
+    }
+
+  .visible-sm-block {
+    display : block !important;
+    }
+
+  .visible-sm-inline {
+    display : inline !important;
+    }
+
+  .visible-sm-inline-block {
+    display : inline-block !important;
+    }
+
+  .hidden-sm {
+    .responsive-invisibility();
+    }
+  }
+
+////   MS VISIBILITY
+
+@media (min-width : @screen-ms-min) and (max-width : @screen-ms-max) {
+
+  .visible-ms {
+    .responsive-visibility();
+    }
+
+  .visible-ms-block {
+    display : block !important;
+    }
+
+  .visible-ms-inline {
+    display : inline !important;
+    }
+
+  .visible-ms-inline-block {
+    display : inline-block !important;
+    }
+
+  .hidden-ms {
+    .responsive-invisibility();
+    }
+
+  // BUT HIDE XS
+  /*  .hidden-xs {
+      .responsive-invisibility();
+      }
+
+    .visible-xs {
+      .responsive-invisibility();
+      }
+
+    .visible-xs-block,
+    .visible-xs-inline,
+    .visible-xs-inline-block {
+      display : none !important;
+      }*/
+
+  }
+
+///  NEW XS VISIBILITY
+
+@media (max-width : @screen-xs-max-new) {
+  .visible-xs {
+    .responsive-visibility();
+    }
+
+  .visible-xs-block {
+    display : block !important;
+    }
+
+  .visible-xs-inline {
+    display : inline !important;
+    }
+
+  .visible-xs-inline-block {
+    display : inline-block !important;
+    }
+
+  .hidden-xs {
+    .responsive-invisibility();
+    }
+  }
+

@@ -1,0 +1,216 @@
+/*------------------------------------------------------------------
+  HEADER BACKGROUND WRAPPER
+------------------------------------------------------------------*/
+.header-bg-wrapper {
+  position : absolute;
+  width    : 100%;
+  top      : 0;
+  }
+
+/*------------------------------------------------------------------
+  HEADER BACKGROUND STYLE ONE
+------------------------------------------------------------------*/
+
+.bg-style-one {
+  &::after {
+    content    : "";
+    position   : absolute;
+    width      : 100px;
+    height     : 100px;
+    top        : -50px;
+    left       : -50px;
+    background : @link-color;
+    z-index    : 1;
+    .box-shadow(inset 0 0 3px 5px rgba(0, 0, 0, 0.13));
+    .rotate(45deg);
+    }
+
+  .header-bg {
+
+    height     : 350px;
+    background : @theme-color;
+
+    &::before,
+    &::after {
+      content  : " ";
+      position : absolute;
+      height   : 0px;
+      width    : 0px;
+      }
+
+    &::before {
+      top           : 100%;
+      left          : 0px;
+      border-top    : 350px solid @theme-color;
+      border-left   : 350px solid darken(@theme-color, 10%);
+      border-right  : 350px solid transparent;
+      border-bottom : 350px solid transparent;
+      }
+
+    &::after {
+      top           : 0;
+      right         : 0px;
+      border-top    : 350px solid transparent;
+      border-bottom : 350px solid transparent;
+      border-right  : 350px solid darken(@theme-color, 10%);
+      }
+
+    }
+  }
+
+/*------------------------------------------------------------------
+  HEADER BACKGROUND STYLE TWO
+------------------------------------------------------------------*/
+
+.bg-style-two {
+
+  &::after {
+    content     : " ";
+    position    : absolute;
+    width       : 500px;
+    height      : 500px;
+    left        : 50%;
+    top         : -270px;
+    margin-left : -250px;
+    background  : #00975E;
+    .box-shadow(0 0 10px 3px rgba(0, 0, 0, 0.2));
+    .rotate(45deg);
+    }
+
+  .header-bg {
+    &::before,
+    &::after {
+      width    : 100%;
+      height   : 700px;
+      content  : " ";
+      position : absolute;
+      top      : 0;
+      .box-shadow(0 0 5px 1px rgba(0, 0, 0, 0.16));
+      }
+
+    &::before {
+      right      : -55%;
+      background : #FFC351;
+      .rotate(45deg);
+      }
+
+    &::after {
+      left       : -55%;
+      background : #007EE8;
+      .rotate(-45deg);
+      }
+
+    }
+  }
+
+/*------------------------------------------------------------------
+  HEADER BACKGROUND STYLE THREE
+------------------------------------------------------------------*/
+
+.bg-style-three {
+  width      : 100%;
+  height     : 300px;
+  position   : absolute;
+  background : url(../img/bg-pattern-3.png);
+  &::after,
+  &::before {
+    content    : " ";
+    position   : absolute;
+    width      : 0;
+    height     : 0;
+    top        : 100%;
+    border-top : 300px solid fade(@theme-color, 75%);
+    background : url(../img/bg-pattern-3.png);
+    }
+
+  &::after {
+    left        : 0;
+    border-left : 400px solid #FFFFFF;
+    }
+
+  &::before {
+    right        : 0;
+    border-right : 400px solid #FFFFFF;
+    }
+
+  .header-bg {
+    position   : absolute;
+    height     : 300px;
+    width      : 100%;
+    background : fade(@theme-color, 70%);
+    }
+  }
+
+/*------------------------------------------------------------------
+  HEADER BACKGROUND STYLE FOUR
+------------------------------------------------------------------*/
+
+.bg-style-four {
+  width    : 100%;
+  height   : 300px;
+  position : fixed;
+
+  &::after {
+    content    : " ";
+    position   : absolute;
+    width      : 100%;
+    height     : 200px;
+    background : #4CAF50;
+    top        : -120px;
+    .box-shadow(0 0 10px 2px rgba(0, 0, 0, 0.4));
+    .skew(0, -7deg);
+    }
+
+  .header-bg {
+
+    &::after,
+    &::before {
+      content  : " ";
+      position : absolute;
+      width    : 100%;
+      top      : -100px;
+      .box-shadow(0 0 10px 2px rgba(0, 0, 0, 0.4));
+      }
+
+    &::after {
+
+      height     : 300px;
+      background : #FFD900;
+      right      : -40%;
+      .skew(0, 30deg);
+      @media @lg-custom-screen {
+        right : -42%;
+        }
+      }
+
+    &::before {
+      height     : 100px;
+      background : #FFD900;
+      right      : -16%;
+      .skew(0, 35deg);
+
+      @media @lg-custom-screen {
+        right : -22%;
+        }
+      }
+    }
+  }
+
+/*------------------------------------------------------------------
+  HEADER BACKGROUND STYLE FIVE
+------------------------------------------------------------------*/
+
+.bg-style-five {
+  width            : 100%;
+  height           : 350px;
+  background-color : @theme-color;
+  }
+
+/*------------------------------------------------------------------
+  HEADER BACKGROUND STYLE CUSTOM
+------------------------------------------------------------------*/
+
+.bg-style-custom {
+  width  : 100%;
+  height : 350px;
+  }

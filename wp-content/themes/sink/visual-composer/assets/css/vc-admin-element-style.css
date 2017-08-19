@@ -1,0 +1,316 @@
+/*VC elements list modal style*/
+
+.wpb-elements-list-modal .wpb-content-layouts li {
+    width  : 149px !important;
+    height : 100px !important;
+    border : 1px solid #DDDDDD !important;
+    }
+
+.wpb-elements-list-modal .wpb-content-layouts li .vc_el-container {
+    height : 100px !important;
+    }
+
+.vc_default-templates .vc_templates-image {
+    border             : 1px solid rgba(158, 209, 84, 0.31);
+    -webkit-transition : all 400ms;
+    -moz-transition    : all 400ms;
+    -o-transition      : all 400ms;
+    transition         : all 400ms;
+    }
+
+.vc_default-templates .vc_template:hover .vc_templates-image {
+    border : 1px solid #9ED154;
+    }
+
+/*Service icon*/
+.service-icon {
+    background-image    : url('../images/icon/service-icon.png') !important;
+    background-position : 0 0;
+    background-repeat   : no-repeat;
+    }
+
+/*carousel icon*/
+.client-carousel-icon {
+    background-image    : url('../images/icon/carousel-icon.png') !important;
+    background-position : 0 0;
+    background-repeat   : no-repeat;
+    }
+
+/*Tabs icon*/
+.icon-vc_icon_tabs {
+    background-image    : url('../images/icon/hippo-tab-icon.png') !important;
+    background-position : 0 0;
+    background-repeat   : no-repeat;
+    }
+
+/*Testimonial icon*/
+.testimonial-icon {
+    background-image    : url('../images/icon/testimonial-icon.png') !important;
+    background-position : 0 0;
+    background-repeat   : no-repeat;
+    }
+
+.vc_element-icon.fa {
+    background-image : none;
+    background-color : #9ED154;
+    width            : 32px;
+    height           : 32px;
+    font-size        : 18px;
+    line-height      : 32px;
+    text-align       : center;
+    border-radius    : 3px;
+    color            : #FFFFFF;
+    }
+
+/*hippo shortcode popup window*/
+#TB_window {
+    z-index : 999999 !important;
+    }
+
+/*Pricing table dropdown bg color*/
+
+.edit_form_line select .GreenSea {
+    background : #16A085;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.GreenSea {
+    background : #16A085;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .GreenBlue {
+    background : #27AE60;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.GreenBlue {
+    background : #27AE60;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .Blue {
+    background : #2980B9;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.Blue {
+    background : #2980B9;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .Red {
+    background : #C0392B;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.Red {
+    background : #C0392B;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .Whisteria {
+    background : #8E44AD;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.Whisteria {
+    background : #8E44AD;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .MidnightBlue {
+    background : #34495E;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.MidnightBlue {
+    background : #34495E;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .Orange {
+    background : #F39C12;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.Orange {
+    background : #F39C12;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .Pumkin {
+    background : #D35400;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.Pumkin {
+    background : #D35400;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .Silver {
+    background : #BDC3C7;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.Silver {
+    background : #BDC3C7;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .Concrete {
+    background : #7F8C8D;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.Concrete {
+    background : #7F8C8D;
+    color      : #FFFFFF;
+    }
+
+/*Pricint table featured dropdown bg color*/
+
+.edit_form_line select .featured-red {
+    background : #C0392B;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.featured-red {
+    background : #C0392B;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .featured-orange {
+    background : #F39C12;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.featured-orange {
+    background : #F39C12;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .featured-pumkin {
+    background : #D35400;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.featured-pumkin {
+    background : #D35400;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .featured-whisteria {
+    background : #8E44AD;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select.featured-whisteria {
+    background : #8E44AD;
+    color      : #FFFFFF;
+    }
+
+/*Theme Default Color*/
+
+.edit_form_line select.theme-default {
+    background : #9ED154;
+    color      : #FFFFFF;
+    }
+
+.edit_form_line select .theme-default {
+    background : #9ED154;
+    color      : #FFFFFF;
+    }
+
+/*CTA2 color*/
+
+.edit_form_line .blue {
+    background-color : #5472D2 !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .turquoise {
+    background-color : #00C1CF !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .pink {
+    background-color : #FE6C61 !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .violet {
+    background-color : #8D6DC4 !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .peacoc {
+    background-color : #4CADC9 !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .chino {
+    background-color : #CEC2AB !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .mulled_wine {
+    background-color : #50485B !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .vista_blue {
+    background-color : #75D69C !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .black {
+    background-color : #2A2A2A !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .grey {
+    background-color : #EBEBEB !important;
+    color            : #666666 !important;
+    }
+
+.edit_form_line .orange {
+    background-color : #F7BE68 !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .sky {
+    background-color : #5AA1E3 !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .green {
+    background-color : #6DAB3C !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .juicy_pink {
+    background-color : #F4524D !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .sandy_brown {
+    background-color : #F79468 !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .purple {
+    background-color : #B97EBB !important;
+    color            : #FFFFFF !important;
+    }
+
+.edit_form_line .white {
+    background-color : #FFFFFF !important;
+    color            : #666666 !important;
+    }
+
+.edit_form_line .default-theme {
+    background-color : #9ED154 !important;
+    color            : #FFFFFF !important;
+    }

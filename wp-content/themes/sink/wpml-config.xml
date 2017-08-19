@@ -1,0 +1,34 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">product</custom-type>
+        <custom-type translate="1">product_variation</custom-type>
+        <custom-type translate="1">shop_order</custom-type>
+        <custom-type translate="1">shop_order_refund</custom-type>
+        <custom-type translate="1">shop_coupon</custom-type>
+        <custom-type translate="1">shop_webhook</custom-type>
+        <custom-type translate="1">wpcf7_contact_form</custom-type>
+        <custom-type translate="1">vc_grid_item</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">product_type</taxonomy>
+        <taxonomy translate="1">product_cat</taxonomy>
+        <taxonomy translate="1">product_tag</taxonomy>
+        <taxonomy translate="1">product_shipping_class</taxonomy>
+        <taxonomy translate="1">pa_colors</taxonomy>
+        <taxonomy translate="1">pa_size</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="translate">hippo_post_views_count</custom-field>
+        <custom-field action="translate">product_policy</custom-field>
+        <custom-field action="translate">hippo_menu_meta_widgets</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="hippo_theme_option">
+            <key name="footer-text"/>
+            <key name="footer-contact"/>
+            <key name="mini-cart-title"/>
+            <key name="blog-title"/>
+            <key name="offcanvas-menu-title"/>
+        </key>
+    </admin-texts>
+</wpml-config>

@@ -1,0 +1,1337 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Sink Theme Plugin\n"
+"POT-Creation-Date: 2017-07-12 01:04+0600\n"
+"PO-Revision-Date: 2017-07-12 01:04+0600\n"
+"Last-Translator: ThemeHippo <themehippo@gmail.com>\n"
+"Language-Team: ThemeHippo <themehippo@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: hippo-plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: data-import/contents.php:36
+msgid "Install dummy data for hippo theme"
+msgstr ""
+
+#: data-import/contents.php:113
+msgid "Import Demo Data for &#8220;"
+msgstr ""
+
+#: data-import/contents.php:153
+msgid "Import theme options"
+msgstr ""
+
+#: data-import/contents.php:160
+msgid "Import widget data"
+msgstr ""
+
+#: data-import/contents.php:166
+msgid "Import demo data"
+msgstr ""
+
+#: data-import/contents.php:173
+msgid ""
+"Download and import file attachments. <small><i>This process may take few "
+"minutes</i></small>"
+msgstr ""
+
+#: data-import/contents.php:180
+msgid "Start Importing"
+msgstr ""
+
+#: data-import/contents.php:293
+msgid "Nothing imported."
+msgstr ""
+
+#: data-import/contents.php:331 data-import/contents.php:340
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: data-import/contents.php:332
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: data-import/contents.php:376
+msgid "<strong>Demo Data Imported successfully.</strong>"
+msgstr ""
+
+#: data-import/contents.php:399
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: data-import/contents.php:453
+#, php-format
+msgid "Category &#8220;%s&#8221; imported."
+msgstr ""
+
+#: data-import/contents.php:457
+#, php-format
+msgid "Failed to import category &#8220;%s&#8221;"
+msgstr ""
+
+#: data-import/contents.php:509
+#, php-format
+msgid "Post tag &#8220;%s&#8221; imported"
+msgstr ""
+
+#: data-import/contents.php:513
+#, php-format
+msgid "Failed to import post tag &#8220;%s&#8221;"
+msgstr ""
+
+#: data-import/contents.php:584
+#, php-format
+msgid "Failed to import &#8220;%2$s&#8221; in &#8220;%1$s&#8221;"
+msgstr ""
+
+#: data-import/contents.php:623
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: data-import/contents.php:652
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: data-import/contents.php:736
+#, php-format
+msgid "Post &#8220;%s&#8221; imported."
+msgstr ""
+
+#: data-import/contents.php:745
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221; from %s"
+msgstr ""
+
+#: data-import/contents.php:836
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: data-import/contents.php:987
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: &#8220;%s&#8221;"
+msgstr ""
+
+#: data-import/contents.php:1108
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: data-import/contents.php:1125
+msgid "Invalid file type"
+msgstr ""
+
+#: data-import/contents.php:1180
+msgid "Cannot fetch file from server and put on your server."
+msgstr ""
+
+#: data-import/index.php:17
+#, php-format
+msgid "%s Theme Setup Wizard"
+msgstr ""
+
+#: data-import/redux-theme-option.php:30 data-import/theme-options.php:30
+msgid "Theme Options Imported successfully."
+msgstr ""
+
+#: data-import/widgets.php:62
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: data-import/widgets.php:84
+msgid "Site does not support widget"
+msgstr ""
+
+#: data-import/widgets.php:127
+msgid "&#8221; Widget already exists"
+msgstr ""
+
+#: data-import/widgets.php:176
+msgid "&#8221; widget imported"
+msgstr ""
+
+#: data-import/widgets.php:179
+msgid "&#8221; Imported to Inactive"
+msgstr ""
+
+#: data-import/widgets.php:186
+msgid "No Title"
+msgstr ""
+
+#: data-import/xml-parsers.php:48 data-import/xml-parsers.php:79
+#: data-import/xml-parsers.php:87
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: data-import/xml-parsers.php:49
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: data-import/xml-parsers.php:92 data-import/xml-parsers.php:98
+#: data-import/xml-parsers.php:332 data-import/xml-parsers.php:545
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: hippo-plugin.php:60
+#, php-format
+msgid "%1$s Theme Settings"
+msgstr ""
+
+#: hippo-plugin.php:60
+#, php-format
+msgid "%1$s Settings"
+msgstr ""
+
+#: hippo-plugin.php:83
+#, php-format
+msgid "View %1$s Theme Documentation"
+msgstr ""
+
+#: hippo-plugin.php:83
+#, php-format
+msgid "%1$s Theme Documentation"
+msgstr ""
+
+#: hippo-plugin.php:84
+#, php-format
+msgid "View %1$s Theme How to Videos"
+msgstr ""
+
+#: hippo-plugin.php:84
+#, php-format
+msgid "%1$s Theme Videos"
+msgstr ""
+
+#: hippo-plugin.php:85
+#, php-format
+msgid "Goto %1$s Theme Support"
+msgstr ""
+
+#: hippo-plugin.php:85
+#, php-format
+msgid "%1$s Theme Support"
+msgstr ""
+
+#: lesscss/index.php:110
+#, php-format
+msgid ""
+"Cann't create directory <strong>%s</strong>, Please check permission to "
+"create directory."
+msgstr ""
+
+#: lesscss/index.php:115
+#, php-format
+msgid ""
+"Cann't put generated css file on <strong>%s</strong>, Please check file "
+"permission to write."
+msgstr ""
+
+#: lesscss/index.php:119
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: menu-meta/class-navmenu-item-engine.php:260
+#: term-meta/include/term-meta-generator-class.php:276
+msgid "Upload / Add image"
+msgstr ""
+
+#: menu-meta/class-navmenu-item-engine.php:263
+#: term-meta/include/term-meta-generator-class.php:278
+msgid "Remove image"
+msgstr ""
+
+#: menu-meta/class-navmenu-meta.php:91
+msgid "Select All"
+msgstr ""
+
+#: menu-meta/class-navmenu-meta.php:96
+msgid "Add to Menu"
+msgstr ""
+
+#: metaboxes/index.php:341
+msgid "Fields"
+msgstr ""
+
+#: metaboxes/index.php:850
+msgid "Most Used"
+msgstr ""
+
+#: post-likes/index.php:35
+msgid "Automatically show likes on"
+msgstr ""
+
+#: post-likes/index.php:39
+msgid "Exclude from Post/Page ID"
+msgstr ""
+
+#: post-likes/index.php:43
+msgid "Disable CSS"
+msgstr ""
+
+#: post-likes/index.php:47
+msgid "AJAX Like Counts"
+msgstr ""
+
+#: post-likes/index.php:51
+msgid "0 Count Postfix"
+msgstr ""
+
+#: post-likes/index.php:55
+msgid "1 Count Postfix"
+msgstr ""
+
+#: post-likes/index.php:59
+msgid "More than 1 Count Postfix"
+msgstr ""
+
+#: post-likes/index.php:63
+msgid "Shortcode and Template Tag"
+msgstr ""
+
+#: post-likes/index.php:71 post-likes/index.php:75 post-likes/index.php:90
+msgid "ZillaLikes Settings"
+msgstr ""
+
+#: post-likes/index.php:75
+msgid "Settings"
+msgstr ""
+
+#: post-likes/index.php:93
+msgid "Settings saved."
+msgstr ""
+
+#: post-likes/index.php:100
+msgid "Save Changes"
+msgstr ""
+
+#: post-likes/index.php:108
+msgid ""
+"ZillaLikes allows you to display like icons throughout your site. Customize "
+"the output of ZillaLike with this settings page."
+msgstr ""
+
+#: post-likes/index.php:127
+msgid "Posts"
+msgstr ""
+
+#: post-likes/index.php:130
+msgid "Pages"
+msgstr ""
+
+#: post-likes/index.php:133
+msgid "Blog Index Page, Archive Pages, and Search Results"
+msgstr ""
+
+#: post-likes/index.php:143
+msgid "Comma separated list of post/page ID's (e.g. 4,7,87)"
+msgstr ""
+
+#: post-likes/index.php:153
+msgid "I want to use my own CSS styles"
+msgstr ""
+
+#: post-likes/index.php:163
+msgid ""
+"We recommend you check this option when using the Shutterbug theme to avoid "
+"conflicts"
+msgstr ""
+
+#: post-likes/index.php:175
+msgid "AJAX Like Counts on page load"
+msgstr ""
+
+#: post-likes/index.php:176
+msgid ""
+"If you are using a cacheing plugin, you may want to dynamically load the "
+"like counts via AJAX."
+msgstr ""
+
+#: post-likes/index.php:186
+msgid ""
+"The text after the count when no one has liked a post/page. Leave blank for "
+"no text after the count."
+msgstr ""
+
+#: post-likes/index.php:196
+msgid ""
+"The text after the count when one person has liked a post/page. Leave blank "
+"for no text after the count."
+msgstr ""
+
+#: post-likes/index.php:206
+msgid ""
+"The text after the count when more than one person has liked a post/page. "
+"Leave blank for no text after the count."
+msgstr ""
+
+#: post-likes/index.php:210
+msgid "To use ZillaLikes in your posts and pages you can use the shortcode:"
+msgstr ""
+
+#: post-likes/index.php:212
+msgid ""
+"To use ZillaLikes manually in your theme template use the following PHP code:"
+msgstr ""
+
+#: post-likes/index.php:302
+msgid "Like this"
+msgstr ""
+
+#: post-likes/index.php:305
+msgid "You already like this"
+msgstr ""
+
+#: post-likes/index.php:445
+msgid "Displays your most popular posts sorted by most liked"
+msgstr ""
+
+#: post-likes/index.php:506
+msgid "Popular Posts"
+msgstr ""
+
+#: post-likes/index.php:521
+msgid "Title:"
+msgstr ""
+
+#: post-likes/index.php:527
+msgid "Description:"
+msgstr ""
+
+#: post-likes/index.php:533
+msgid "Posts:"
+msgstr ""
+
+#: post-likes/index.php:543
+msgid "Display like counts"
+msgstr ""
+
+#: post-types/post-types/example-post-type.php:8
+#: post-types/post-types/example-post-type.php:9
+msgctxt "hippo-plugin"
+msgid "Example"
+msgstr ""
+
+#: post-types/post-types/example-post-type.php:10
+#: post-types/post-types/example-post-type.php:12
+#: post-types/post-types/example-post-type.php:23
+msgid "Example"
+msgstr ""
+
+#: post-types/post-types/example-post-type.php:11
+msgid "Parent Example:"
+msgstr ""
+
+#: post-types/post-types/example-post-type.php:13
+msgid "View Example"
+msgstr ""
+
+#: post-types/post-types/example-post-type.php:14
+msgid "Add New Example"
+msgstr ""
+
+#: post-types/post-types/example-post-type.php:15
+msgid "New Example"
+msgstr ""
+
+#: post-types/post-types/example-post-type.php:16
+msgid "Edit Example"
+msgstr ""
+
+#: post-types/post-types/example-post-type.php:17
+msgid "Update Example"
+msgstr ""
+
+#: post-types/post-types/example-post-type.php:18
+msgid "Search Example"
+msgstr ""
+
+#: post-types/post-types/example-post-type.php:19
+msgid "No Example Item found"
+msgstr ""
+
+#: post-types/post-types/example-post-type.php:20
+msgid "No Example Item found in Trash"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:10
+msgid "Featured Video (.webm)"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:11
+msgid "Webm Video like: example.webm"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:16
+msgid "Featured Video (.ogv)"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:17
+msgid "Webm Video like: example.ogv"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:22
+msgid "Featured Video (.mp4)"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:23
+msgid "Webm Video like: example.mp4"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:29
+msgid "Embed Video"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:31
+msgid "Embed video. Supported list: http://codex.wordpress.org/Embeds"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:49
+msgid "Video Options"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:55
+msgid "Featured Audio (.mp3)"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:56
+msgid "MP3 Audio like: example.mp3"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:62
+msgid "Featured Audio (.ogg)"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:63
+msgid "OGG Audio like: example.ogg"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:68
+msgid "Embed Audio"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:70
+msgid "Embed audio. Supported list: http://codex.wordpress.org/Embeds"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:88
+msgid "Audio Options"
+msgstr ""
+
+#: post-types/post-types/post-meta.php:95
+#: post-types/post-types/post-meta.php:96
+#: post-types/post-types/post-meta.php:111
+msgid "Featured Gallery"
+msgstr ""
+
+#: post-types/post-types/product-meta.php:11
+msgid "Product policy"
+msgstr ""
+
+#: post-types/post-types/product-meta.php:12
+msgid "Enter policy here"
+msgstr ""
+
+#: post-types/post-types/product-meta.php:21
+msgid "Additional Info"
+msgstr ""
+
+#: session/functions.php:104 session/functions.php:123
+#: session/functions.php:139
+msgid "This function should not be called before woocommerce_init."
+msgstr ""
+
+#: shortcode/includes/class-emshortcode-attr.php:158
+#: shortcode/includes/class-emshortcode-attr.php:160
+msgid "Add Image"
+msgstr ""
+
+#: shortcode/includes/class-emshortcode-attr.php:169
+msgid "Clear"
+msgstr ""
+
+#: shortcode/includes/class-emshortcode-engine.php:68
+msgid "Contents"
+msgstr ""
+
+#: shortcode/includes/class-emshortcode-engine.php:69
+msgid "Selected text from editor contents"
+msgstr ""
+
+#: shortcode/includes/em-mce-popup.php:22
+msgid "Select Shortcode:"
+msgstr ""
+
+#: shortcode/includes/em-mce-popup.php:29
+msgid "Select a shortcode from list"
+msgstr ""
+
+#: shortcode/includes/em-mce-popup.php:67
+msgid "Select a shortcode from list."
+msgstr ""
+
+#: shortcode/includes/em-mce-popup.php:84
+#: shortcode/includes/em-mce-popup.php:85
+msgid "Insert"
+msgstr ""
+
+#: shortcode/includes/em-mce-popup.php:88
+#: shortcode/includes/em-mce-popup.php:89
+msgid "Close"
+msgstr ""
+
+#: shortcode/index.php:12
+msgid "Insert Shortcode"
+msgstr ""
+
+#: shortcode/index.php:13
+msgid "Shortcodes"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:10
+msgid "Button"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:11
+msgid "Display button"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:16
+msgid "Style"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:17
+msgid "Select button style"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:19
+msgid "Simple style"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:20
+msgid "Rounded style"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:21
+msgid "Simple icon style"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:22
+msgid "Rounded & icon style"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:23
+msgid "Only Border style"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:24
+msgid "Border & icon style"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:56
+msgid "Text"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:57
+msgid "Button Text"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:61
+#: visual-composer/addons/home-carousel.php:148
+msgid "Link"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:62
+msgid "Button Link"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:66
+msgid "Link target"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:67
+msgid "Select link target"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:69
+msgid "Self"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:70
+msgid "Blank"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:71
+msgid "Parent"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:72
+msgid "Top"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:77
+msgid "Type"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:78
+msgid "Button type"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:80
+msgid "Small Button"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:81
+msgid "Medium Button"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:82
+msgid "Large Button"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:87 shortcode/shortcodes/social.php:26
+msgid "Social Icons"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:88
+msgid "Choose desire button icon"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:94
+msgid "Background color"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:95
+msgid "Select background color"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:102
+msgid "Text color"
+msgstr ""
+
+#: shortcode/shortcodes/button.php:103
+msgid "Select text color"
+msgstr ""
+
+#: shortcode/shortcodes/extras.php:14 shortcode/shortcodes/extras.php:15
+msgid "FontAwesome Icon"
+msgstr ""
+
+#: shortcode/shortcodes/extras.php:20 shortcode/shortcodes/extras.php:87
+msgid "Choose Icons"
+msgstr ""
+
+#: shortcode/shortcodes/extras.php:21 shortcode/shortcodes/extras.php:88
+msgid "Choose desire icon"
+msgstr ""
+
+#: shortcode/shortcodes/extras.php:27 shortcode/shortcodes/extras.php:28
+#: shortcode/shortcodes/extras.php:94 shortcode/shortcodes/extras.php:95
+msgid "Icon size"
+msgstr ""
+
+#: shortcode/shortcodes/extras.php:40 shortcode/shortcodes/extras.php:107
+msgid "Class"
+msgstr ""
+
+#: shortcode/shortcodes/extras.php:41 shortcode/shortcodes/extras.php:108
+msgid "Extra class for icon"
+msgstr ""
+
+#: shortcode/shortcodes/extras.php:81 shortcode/shortcodes/extras.php:82
+msgid "Material Icon"
+msgstr ""
+
+#: shortcode/shortcodes/extras.php:166
+msgid "oEmbed"
+msgstr ""
+
+#: shortcode/shortcodes/extras.php:167
+msgid "Embed WP supported links."
+msgstr ""
+
+#: shortcode/shortcodes/extras.php:172
+msgid "oEmbed Link"
+msgstr ""
+
+#: shortcode/shortcodes/extras.php:173
+msgid "WP supported oEmbed link to dipslay."
+msgstr ""
+
+#: shortcode/shortcodes/social.php:10 shortcode/shortcodes/social.php:11
+#: shortcode/shortcodes/social.php:18 shortcode/shortcodes/social.php:19
+msgid "Social links"
+msgstr ""
+
+#: shortcode/shortcodes/social.php:27
+msgid "Choose desire share icon"
+msgstr ""
+
+#: shortcode/shortcodes/social.php:32
+msgid "Social link"
+msgstr ""
+
+#: shortcode/shortcodes/social.php:33
+msgid "Link of a social site"
+msgstr ""
+
+#: term-meta/include/term-meta-generator-class.php:238
+msgid "Revolution Slider is not Installed or Activated."
+msgstr ""
+
+#: term-meta/include/term-meta-generator-class.php:238
+msgid "Dismiss this notice."
+msgstr ""
+
+#: term-meta/include/term-meta-generator-class.php:252
+msgid "-- Choose Icon --"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:7
+msgid "Catalogue Position"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:8
+msgid "Enter catalogue position."
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:14
+msgid "Catalogue column"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:16
+msgid "Choose number of catalogue column. Calculated from medium device."
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:23
+msgid "3 Columns 1/4"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:24
+msgid "4 Columns 1/3"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:25
+msgid "6 Columns 1/2"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:26
+msgid "12 Columns 1/1"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:30
+msgid "Catalogue column grid class"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:32
+msgid ""
+"Enter catalogue grid column, without dot, use space to use multiple class. "
+"default is: col-md-*"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:40
+msgid "col-sm-6 col-md-4"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:43
+msgid "Catalogue Slider"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:44
+msgid "Select a slider for catalogue slide"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:61
+msgid "Color"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:62
+msgid "Choose a color"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:70
+msgid "Image"
+msgstr ""
+
+#: term-meta/tax-meta-fields.php:71
+msgid "Choose a Image"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:12
+msgid "Hippo FAQ"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:17
+msgid "Show off FAQ"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:22
+#: visual-composer/addons/hippo-product-cats.php:18
+#: visual-composer/addons/hippo-products.php:23
+#: visual-composer/addons/home-carousel.php:48
+msgid "Theme Elements"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:31
+#: visual-composer/addons/hippo-faq.php:104
+#: visual-composer/addons/hippo-product-cats.php:31
+#: visual-composer/addons/hippo-products.php:51
+#: visual-composer/addons/home-carousel.php:57
+#: visual-composer/addons/home-carousel.php:182
+msgid "Extra class name"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:33
+#: visual-composer/addons/hippo-faq.php:106
+#: visual-composer/addons/hippo-product-cats.php:33
+#: visual-composer/addons/hippo-products.php:53
+#: visual-composer/addons/home-carousel.php:59
+#: visual-composer/addons/home-carousel.php:184
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:46
+msgid "FAQ list"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:57
+msgid "Show Icon"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:59
+msgid "If you do not like to show icon then select no to hide"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:61
+msgid "Select option"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:62
+#: visual-composer/addons/home-carousel.php:87 widgets/index.php:95
+#: widgets/index.php:107
+msgid "Yes"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:63
+#: visual-composer/addons/home-carousel.php:88 widgets/index.php:97
+#: widgets/index.php:109
+msgid "No"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:68
+msgid "Icon"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:80
+msgid "Icon color"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:83
+msgid "change icon color"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:91
+#: visual-composer/addons/home-carousel.php:102
+msgid "Title"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:94
+msgid "Put the question"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:98
+msgid "Description"
+msgstr ""
+
+#: visual-composer/addons/hippo-faq.php:100
+msgid "Put the question answer"
+msgstr ""
+
+#: visual-composer/addons/hippo-product-cats.php:8
+msgid "Select a product category"
+msgstr ""
+
+#: visual-composer/addons/hippo-product-cats.php:15
+msgid "Hippo Product Category"
+msgstr ""
+
+#: visual-composer/addons/hippo-product-cats.php:19
+msgid "For showing product category"
+msgstr ""
+
+#: visual-composer/addons/hippo-product-cats.php:24
+msgid "Select Category"
+msgstr ""
+
+#: visual-composer/addons/hippo-product-cats.php:27
+msgid "Select category to show category post"
+msgstr ""
+
+#: visual-composer/addons/hippo-products.php:19
+msgid "Hippo Products"
+msgstr ""
+
+#: visual-composer/addons/hippo-products.php:24
+msgid "Display single product"
+msgstr ""
+
+#: visual-composer/addons/hippo-products.php:28
+msgid "Product Display style"
+msgstr ""
+
+#: visual-composer/addons/hippo-products.php:31
+msgid "Select a product display style"
+msgstr ""
+
+#: visual-composer/addons/hippo-products.php:32
+msgid "Medium"
+msgstr ""
+
+#: visual-composer/addons/hippo-products.php:33
+msgid "Large"
+msgstr ""
+
+#: visual-composer/addons/hippo-products.php:34
+msgid "Medium Without Margin"
+msgstr ""
+
+#: visual-composer/addons/hippo-products.php:35
+msgid "Large Without Margin"
+msgstr ""
+
+#: visual-composer/addons/hippo-products.php:38
+msgid "Select product display style"
+msgstr ""
+
+#: visual-composer/addons/hippo-products.php:45
+msgid "Select Product"
+msgstr ""
+
+#: visual-composer/addons/hippo-products.php:47
+msgid "Select produtct that would you like to display"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:11
+msgid "Select animation"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:12
+msgid "fadeIn"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:13
+msgid "fadeInDown"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:14
+msgid "fadeInDownBig"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:15
+msgid "fadeInLeft"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:16
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:17
+msgid "fadeInRight"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:18
+msgid "fadeInRightBig"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:19
+msgid "fadeInUp"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:20
+msgid "fadeInUpBig"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:24
+msgid "Select animation delay"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:25
+msgid "Delay 300ms"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:26
+msgid "Delay 600ms"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:27
+msgid "Delay 900ms"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:28
+msgid "Delay 1200ms"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:29
+msgid "Delay 1500ms"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:30
+msgid "Delay 1800ms"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:31
+msgid "Delay 2100ms"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:32
+msgid "Delay 2400ms"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:33
+msgid "Delay 2700ms"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:34
+msgid "Delay 3000ms"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:38
+msgid "Home Carousel"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:43
+msgid "Display Carousel"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:72
+msgid "Carousel item"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:83
+msgid "Active this item?"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:86
+msgid "Select an option"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:92
+msgid "You must active only one item"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:96
+msgid "Carousel images"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:98
+msgid "Select images from media library"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:105
+msgid "Enter title here"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:109
+#: visual-composer/addons/home-carousel.php:158
+msgid "Animation"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:113
+msgid "Select title animation"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:117
+#: visual-composer/addons/home-carousel.php:170
+msgid "Animation Delay"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:121
+msgid "Select title animation delay"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:125
+msgid "Link visibility"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:128
+msgid "Select visibility option"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:129
+msgid "Visible"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:130
+msgid "Hidden"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:132
+msgid "Choose link visibility option"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:136
+msgid "Link text"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:138
+msgid "Enter link text"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:139
+msgid "View Details"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:150
+msgid "Enter or select link"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:162
+msgid "Select link text animation"
+msgstr ""
+
+#: visual-composer/addons/home-carousel.php:174
+msgid "Select link text animation delay"
+msgstr ""
+
+#: widgets-attr/index.php:30
+msgid "Bootstrap Grid Class:"
+msgstr ""
+
+#: widgets-attr/index.php:35
+msgid ""
+"Twitter Bootstrap grid class name. like: col-md-3, col-sm-4 etc. You can add "
+"multiple class name separate by space."
+msgstr ""
+
+#: widgets-attr/index.php:44
+msgid "Clear grid column"
+msgstr ""
+
+#: widgets-attr/index.php:46
+msgid "This will add a clearfix class to clearfix bootstrap grid column."
+msgstr ""
+
+#: widgets/index.php:40
+#, php-format
+msgid "%s Theme - Recent Posts"
+msgstr ""
+
+#: widgets/index.php:41
+msgid "Show off recent post with thumb"
+msgstr ""
+
+#: widgets/index.php:67 widgets/index.php:268 widgets/index.php:364
+msgid "Title: "
+msgstr ""
+
+#: widgets/index.php:75
+msgid "Number of posts to show: "
+msgstr ""
+
+#: widgets/index.php:83
+msgid "Title length: "
+msgstr ""
+
+#: widgets/index.php:91
+msgid "Show meta ? "
+msgstr ""
+
+#: widgets/index.php:103
+msgid "Show Post thumbnail ? "
+msgstr ""
+
+#: widgets/index.php:114
+msgid "Thumbnail Image Size:"
+msgstr ""
+
+#: widgets/index.php:119
+msgid "Width:"
+msgstr ""
+
+#: widgets/index.php:125
+msgid "Height:"
+msgstr ""
+
+#: widgets/index.php:208
+msgid "By"
+msgstr ""
+
+#: widgets/index.php:224
+msgid "Not Found!"
+msgstr ""
+
+#: widgets/index.php:246
+#, php-format
+msgid "%s Theme - Latest Tweet"
+msgstr ""
+
+#: widgets/index.php:247
+msgid "Displays latest tweet in any sidebar"
+msgstr ""
+
+#: widgets/index.php:276
+msgid "Twitter widget ID: "
+msgstr ""
+
+#: widgets/index.php:280
+msgid ""
+"e.g: 567185781790228482, get instruction from <a href=\"http://blog.topdevs."
+"net/2013/06/19/where-to-find-twitter-widget-id/\">here</a>"
+msgstr ""
+
+#: widgets/index.php:285
+msgid "Max tweet number: "
+msgstr ""
+
+#: widgets/index.php:342
+#, php-format
+msgid "%s Theme - Flickr Photo"
+msgstr ""
+
+#: widgets/index.php:343
+msgid "Displays flickr photo on any sidebar"
+msgstr ""
+
+#: widgets/index.php:372
+msgid "Flickr ID: "
+msgstr ""
+
+#: widgets/index.php:380
+msgid "Photo Limit: "
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Sink Theme Plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "ThemeHippo sink theme plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeHippo.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themehippo.com/"
+msgstr ""
