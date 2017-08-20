@@ -1439,8 +1439,8 @@ msgid "on"
 msgstr ""
 
 #: header-four.php:66 header-three.php:47 header-two.php:73
-msgid "Sign Out"
-msgstr ""
+msgid "xxx"
+msgstr "Prueba"
 
 #: header-one.php:47
 msgid "Sign in "

@@ -44,7 +44,7 @@ defined('ABSPATH') or die('Keep Silent');
                                 <a data-toggle="modal" href="#login"><i class="zmdi zmdi-account"></i></a>
                             <?php else : ?>
                                 <a data-toggle="tooltip" href="<?php echo esc_url(wp_logout_url(home_url('/'))); ?>"
-                                   title="<?php esc_html_e('Cerrar sesión', 'sink') ?>"><i class="zmdi zmdi-square-right zmdi-hc-flip-horizontal"></i></a>
+                                   title="<?php esc_html_e('Sign Out', 'sink') ?>"><i class="zmdi zmdi-square-right zmdi-hc-flip-horizontal"></i></a>
                             <?php endif; ?>
                         </div>
 
