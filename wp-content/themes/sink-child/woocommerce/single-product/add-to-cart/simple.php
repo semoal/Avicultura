@@ -29,9 +29,20 @@
 
 <?php if ( $product->is_in_stock() ) : ?>
     
-    <?php do_action( 'woocommerce_before_add_to_cart_form' ); ?>
+    <?php do_action( 'woocommerce_before_add_to_cart_form' ); 
+    
+        if(count($product->get_files())>0){
+            
+            foreach($product->get_files() as $key => $d){
+                echo '<form class="cart" method="post" action="https://avicultura-kiatoski.c9users.io/pdf-viewer?product_id='.$product->id.'&key='.$key.'">'; 
+            }
+            
+        }else{
+            echo '<form class="cart" method="post" enctype="multipart/form-data">';
+        }
+    ?>
 
-    <form class="cart" method="post" enctype="multipart/form-data">
+    
         
         <?php
             
@@ -54,11 +65,16 @@
         $current_user = wp_get_current_user();
         if ( wc_customer_bought_product( $current_user->user_email, $current_user->ID, $product->id)) {
             $icon = 'zmdi-eye';
+            $text = 'Leer revista';
         }else{
             $icon = 'zmdi-shopping-cart-plus';
+            $text = 'Añadir al carrito';
         }
         ?>
-        <button type="submit" class="single_add_to_cart_button button alt"><i class="zmdi <?php echo $icon?>"></i> <?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
+        <button type="submit" class="single_add_to_cart_button button alt">
+                <i class="zmdi <?php echo $icon?>"></i>
+                <?php echo esc_html($text); ?>
+            </button>
         
         <?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
     </form>

@@ -1,0 +1,2934 @@
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Project-Id-Version: Sink\n"
+"POT-Creation-Date: 2017-07-12 17:03+0600\n"
+"PO-Revision-Date: 2017-08-20 21:24+0000\n"
+"Last-Translator: admin <sergiomorenoalbert@gmail.com>\n"
+"Language-Team: Spanish (Spain)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: es-ES"
+
+#: 404.php: 12
+Msgstr "Página no encontrada"
+Msgstr "
+
+#: 404.php: 14
+Msgstr "Lo sentimos, la página no pudo ser encontrada aquí."
+Msgstr "
+
+#: 404.php: 16
+Msgstr "Intenta usar el botón de abajo para ir a la página principal del sitio"
+Msgstr "
+
+#: 404.php: 19
+Msgstr "Regresar a Inicio"
+Msgstr "
+
+#: Admin / options-init.php: 32
+#, Formato php
+Msgstr "% s Opciones"
+Msgstr "
+
+#: Admin / options-init.php: 33 admin / options-init.php: 92
+#, Formato php
+Msgstr "% s Opciones del Tema"
+Msgstr "
+
+#: Admin / options-init.php: 135
+#, Formato php
+Msgstr "% s Documentación del Tema"
+Msgstr "
+
+#: Admin / options-init.php: 140
+#, Formato php
+Msgstr "% s Videos Tema"
+Msgstr "
+
+#: Admin / options-init.php: 145
+#, Formato php
+Msgstr "% s Soporte de Tema"
+Msgstr "
+
+#: Admin / options-init.php: 158
+Msgstr "Ajustes generales"
+Msgstr "
+
+#: Admin / options-init.php: 163
+Msgstr "Asistente de configuración de temas"
+Msgstr "
+
+#: Admin / options-init.php: 164
+Msgstr "Mostrar u ocultar el enlace del Asistente de configuración de temas en la barra de administración."
+Msgstr "
+
+#: Admin / options-init.php: 165 admin / options-init.php: 174
+#: Admin / options-init.php: 183 admin / options-init.php: 268
+#: Admin / options-init.php: 332 admin / options-init.php: 351
+#: Admin / options-init.php: 361 admin / options-init.php: 671
+#: Admin / options-init.php: 681 admin / options-init.php: 826
+#: Admin / options-init.php: 835 admin / options-init.php: 864
+#: Admin / options-init.php: 928 admin / options-init.php: 971
+#: Admin / options-init.php: 979 admin / options-init.php: 995
+Msgstr "Mostrar"
+Msgstr "
+
+#: Admin / options-init.php: 166 admin / options-init.php: 175
+#: Admin / options-init.php: 184 admin / options-init.php: 269
+#: Admin / options-init.php: 333 admin / options-init.php: 352
+#: Admin / options-init.php: 362 admin / options-init.php: 672
+#: Admin / options-init.php: 682 admin / options-init.php: 827
+#: Admin / options-init.php: 836 admin / options-init.php: 865
+#: Admin / options-init.php: 929 admin / options-init.php: 972
+#: Admin / options-init.php: 980 admin / options-init.php: 996
+Msgstr "Ocultar"
+Msgstr "
+
+#: Admin / options-init.php: 172
+Msgstr "Preloader de la página"
+Msgstr "
+
+#: Admin / options-init.php: 173
+Msgstr "Mostrar u ocultar el preloader de la página."
+Msgstr "
+
+#: Admin / options-init.php: 181
+Msgstr "Volver arriba"
+Msgstr "
+
+#: Admin / options-init.php: 182
+Msgstr "Mostrar u ocultar Volver al principio."
+Msgstr "
+
+#: Admin / options-init.php: 190
+Msgstr "Retina lista"
+Msgstr "
+
+#: Admin / options-init.php: 191
+Msgstr "Soporte de imágenes listo para la retina"
+Msgstr "
+
+#: Admin / options-init.php: 192 admin / options-init.php: 341
+#: Admin / options-init.php: 912
+Msgstr "Habilitar"
+Msgstr "
+
+#: Admin / options-init.php: 193 admin / options-init.php: 342
+Msgstr "Desactivar"
+Msgstr "
+
+#: Admin / options-init.php: 199
+Msgstr "Sombra Menos Estilo"
+Msgstr "
+
+#: Admin / options-init.php: 200
+Msgstr "Usar sombra o sombra menos diseño."
+Msgstr "
+
+#: Admin / options-init.php: 201 admin / options-init.php: 408
+#: Admin / options-init.php: 816 visual-composer / visual-composer.php: 121
+#: Visual-composer / visual-composer.php: 167
+Msgstr "Sí"
+Msgstr "
+
+#: Admin / options-init.php: 202 admin / options-init.php: 409
+#: Admin / options-init.php: 817
+Msgstr "No"
+Msgstr "
+
+#: Admin / options-init.php: 210
+Msgstr "Configuración del encabezado"
+Msgstr "
+
+#: Admin / options-init.php: 216
+Msgstr "Estilo de encabezado"
+Msgstr "
+
+#: Admin / options-init.php: 217
+Msgstr "Seleccionar estilo de encabezado".
+Msgstr "
+
+#: Admin / options-init.php: 220
+Msgstr "Estilo de encabezado uno"
+Msgstr "
+
+#: Admin / options-init.php: 224
+Msgstr "Estilo de encabezado dos"
+Msgstr "
+
+#: Admin / options-init.php: 228
+Msgstr "Estilo de encabezado tres"
+Msgstr "
+
+#: Admin / options-init.php: 232
+Msgstr "Estilo de encabezado cuatro"
+Msgstr "
+
+#: Admin / options-init.php: 244
+Msgstr "Logotipo de estilo de encabezado dos."
+Msgstr "
+
+#: Admin / options-init.php: 245
+Msgstr "Cambiar el logotipo de cabecera dos Dimensión: Ancho: 100px, Altura: 20px"
+Msgstr "
+
+#: Admin / options-init.php: 246 admin / options-init.php: 259
+Msgstr "
+"Es una opción alternativa y se eliminará en la versión futura.Usted puede elegir su"
+"Logotipo del sitio de Customize => Site Identity => Logo Option"
+Msgstr "
+
+#: Admin / options-init.php: 257
+Msgstr "Estilo de cabecera dos Retina Logo."
+Msgstr "
+
+#: Admin / options-init.php: 258
+Msgstr "Cambiar cabecera dos logo de retina Dimensión: Ancho: 200px, Altura: 40px"
+Msgstr "
+
+#: Admin / options-init.php: 266
+Msgstr "Antecedentes del encabezado superior"
+Msgstr "
+
+#: Admin / options-init.php: 267
+Msgstr "Mostrar u ocultar el color de fondo de la cabecera"
+Msgstr "
+
+#: Admin / options-init.php: 275
+Msgstr "Color de fondo del encabezado superior"
+Msgstr "
+
+#: Admin / options-init.php: 276
+Msgstr "Seleccionar personalizado para cambiar el color de fondo"
+Msgstr "
+
+#: Admin / options-init.php: 278
+Msgstr "Predeterminado"
+Msgstr "
+
+#: Admin / options-init.php: 279
+Msgstr "Personalizar"
+Msgstr "
+
+#: Admin / options-init.php: 286
+Msgstr "Antecedentes del encabezado"
+Msgstr "
+
+#: Admin / options-init.php: 287
+Msgstr "Cambiar el fondo de la barra superior de la cabecera"
+Msgstr "
+
+#: Admin / options-init.php: 296
+Msgstr "Estilo de fondo de encabezado"
+Msgstr "
+
+#: Admin / options-init.php: 297
+Msgstr "Seleccionar el estilo de fondo del Encabezado".
+Msgstr "
+
+#: Admin / options-init.php: 304
+Msgstr "Estilo de fondo de encabezado uno"
+Msgstr "
+
+#: Admin / options-init.php: 308
+Msgstr "Estilo de fondo de encabezado dos"
+Msgstr "
+
+#: Admin / options-init.php: 312
+Msgstr "Estilo de fondo de encabezado tres"
+Msgstr "
+
+#: Admin / options-init.php: 316
+Msgstr "Estilo de fondo de encabezado cuatro"
+Msgstr "
+
+#: Admin / options-init.php: 320
+Msgstr "Estilo de fondo de encabezado cinco"
+Msgstr "
+
+#: Admin / options-init.php: 329
+Msgstr "Mostrar lema"
+Msgstr "
+
+#: Admin / options-init.php: 330
+Msgstr "Mostrar u ocultar el tagline del encabezado"
+Msgstr "
+
+#: Admin / options-init.php: 331
+Msgstr "Cambiar la Línea"
+Msgstr "
+
+#: Admin / options-init.php: 339
+Msgstr "Opción de inicio de sesión"
+Msgstr "
+
+#: Admin / options-init.php: 340
+Msgstr "Puede activar o desactivar el menú de inicio de sesión desde aquí."
+Msgstr "
+
+#: Admin / options-init.php: 348
+Msgstr "Mostrar lista de idiomas"
+Msgstr "
+
+#: Admin / options-init.php: 349
+Msgstr "Puede mostrar u ocultar la lista de selectores de idiomas en el encabezado"
+Msgstr "
+
+#: Admin / options-init.php: 350
+Msgstr "Debe haber instalado y activado plugins WPML."
+Msgstr "
+
+#: Admin / options-init.php: 358
+Msgstr "Mostrar el conmutador de divisas"
+Msgstr "
+
+#: Admin / options-init.php: 359
+Msgstr "Puede mostrar u ocultar el selector de divisas del encabezado"
+Msgstr "
+
+#: Admin / options-init.php: 360
+Msgstr "Establecer moneda predeterminada"
+Msgstr "
+
+#: Admin / options-init.php: 368
+Msgstr "Cambiador de divisas de WooCommerce"
+Msgstr "
+
+#: Admin / options-init.php: 369
+Msgstr "Elija las monedas que desea mostrar una lista"
+Msgstr "
+
+#: Admin / options-init.php: 374
+Msgstr "Moneda"
+Msgstr "
+
+#: Admin / options-init.php: 380
+Msgstr "Posición de moneda"
+Msgstr "
+
+#: Admin / options-init.php: 386
+Msgstr "Separador de mil"
+Msgstr "
+
+#: Admin / options-init.php: 392
+Msgstr "Separador Decimal"
+Msgstr "
+
+#: Admin / options-init.php: 398
+Msgstr "Número de decimales"
+Msgstr "
+
+#: Admin / options-init.php: 406
+Msgstr "¿Menú pegajoso activo?"
+Msgstr "
+
+#: Admin / options-init.php: 407
+Msgstr "
+"Usted puede menú activo o deactivo pegajoso de aquí.Menu pegajoso disponible en"
+"Estilo de encabezado: dos, tres y tres"
+Msgstr "
+
+#: Admin / options-init.php: 417
+Msgstr "Configuración predefinida"
+Msgstr "
+
+#: Admin / options-init.php: 424
+Msgstr "Menos compilador"
+Msgstr "
+
+#: Admin / options-init.php: 425
+Msgstr "Activar Compilador MENOR incorporado."
+Msgstr "
+
+#: Admin / options-init.php: 426
+Msgstr "
+"Siempre deberías desactivarlo cuando estés en producción / sitio en vivo, pero"
+"Cuando haces cambios en MENOS archivo / preset / color / tipografía solo gira"
+"En, actualizar su página de inicio y apagarlo de nuevo."
+Msgstr "
+
+#: Admin / options-init.php: 434
+Msgstr "Comprimir SALIDA MENOS"
+Msgstr "
+
+#: Admin / options-init.php: 435
+Msgstr "Comprimir LESS Output para mejorar la carga de la página."
+Msgstr "
+
+#: Admin / options-init.php: 445
+Msgstr "¡Recuerde por favor!"
+Msgstr "
+
+#: Admin / options-init.php: 447
+Msgstr "
+"Si desea cambiar la configuración predefinida o de color, asegúrese de que" Menos "
+"Compiler \" está habilitado. De otro modo no se mostrará ningún efecto css. "
+Msgstr "
+
+#: Admin / options-init.php: 452
+Msgstr "Presets de color"
+Msgstr "
+
+#: Admin / options-init.php: 453
+Msgstr "Presets de Color de Tema"
+Msgstr "
+
+#: Admin / options-init.php: 456
+Msgstr "Preset 1"
+Msgstr "
+
+#: Admin / options-init.php: 457
+Msgstr "Preset 2"
+Msgstr "
+
+#: Admin / options-init.php: 458
+Msgstr "Preset 3"
+Msgstr "
+
+#: Admin / options-init.php: 459
+Msgstr "Preset 4"
+Msgstr "
+
+#: Admin / options-init.php: 460
+Msgstr "Preset 5"
+Msgstr "
+
+#: Admin / options-init.php: 466
+Msgstr "Color base del tema"
+Msgstr "
+
+#: Admin / options-init.php: 467
+Msgstr "Cambiar el color base del tema"
+Msgstr "
+
+#: Admin / options-init.php: 479
+Msgstr "Color de enlace"
+Msgstr "
+
+#: Admin / options-init.php: 480
+Msgstr "Cambiar color de enlace"
+Msgstr "
+
+#: Admin / options-init.php: 492
+Msgstr "Colorear color"
+Msgstr "
+
+#: Admin / options-init.php: 493
+Msgstr "Cambiar el color del ratón"
+Msgstr "
+
+#: Admin / options-init.php: 505
+Msgstr "Color de fondo del cuerpo"
+Msgstr "
+
+#: Admin / options-init.php: 506
+Msgstr "Cambiar el color del cuerpo"
+Msgstr "
+
+#: Admin / options-init.php: 518
+Msgstr "Color de contenido"
+Msgstr "
+
+#: Admin / options-init.php: 519
+Msgstr "Cambiar color de contenido"
+Msgstr "
+
+#: Admin / options-init.php: 531
+Msgstr "Color de menú"
+Msgstr "
+
+#: Admin / options-init.php: 532
+Msgstr "Cambiar el color del menú"
+Msgstr "
+
+#: Admin / options-init.php: 544
+Msgstr "Color de título"
+Msgstr "
+
+#: Admin / options-init.php: 545
+Msgstr "Cambiar todo el color del título"
+Msgstr "
+
+#: Admin / options-init.php: 561
+Msgstr "Configuración de tipografía"
+Msgstr "
+
+#: Admin / options-init.php: 566
+Msgstr "Tipografía de cuerpo"
+Msgstr "
+
+#: Admin / options-init.php: 577 admin / options-init.php: 598
+Msgstr "La opción de tipografía con cada propiedad se puede llamar individualmente."
+Msgstr "
+
+#: Admin / options-init.php: 587
+Msgstr "Tipografía de encabezado"
+Msgstr "
+
+#: Admin / options-init.php: 610
+Msgstr "Configuración de Menú Móvil"
+Msgstr "
+
+#: Admin / options-init.php: 616
+Msgstr "Título del menú Offcanvas"
+Msgstr "
+
+#: Admin / options-init.php: 617
+Msgstr "Cambiar el título del menú Offcanvas"
+Msgstr "
+
+#: Admin / options-init.php: 618 footer.php: 139 footer.php: 140 footer.php: 159
+#: Footer.php: 160
+Msgstr "Menú de la barra lateral"
+Msgstr "
+
+#: Admin / options-init.php: 623
+Msgstr "Posición del menú móvil"
+Msgstr "
+
+#: Admin / options-init.php: 639
+Msgstr "Efecto de menú móvil"
+Msgstr "
+
+#: Admin / options-init.php: 641
+Msgstr "Deslice en la parte superior"
+Msgstr "
+
+#: Admin / options-init.php: 642
+Msgstr "Revelar"
+Msgstr "
+
+#: Admin / options-init.php: 643
+Msgstr "Deslizar a lo largo"
+Msgstr "
+
+#: Admin / options-init.php: 644
+Msgstr "Retirar la diapositiva"
+Msgstr "
+
+#: Admin / options-init.php: 645
+Msgstr "Empujador a escala reducida"
+Msgstr "
+
+#: Admin / options-init.php: 646
+Msgstr "Escalar hacia arriba"
+Msgstr "
+
+#: Admin / options-init.php: 647
+Msgstr "Impulsor de rotación de escala"
+Msgstr "
+
+#: Admin / options-init.php: 648
+Msgstr "Puerta abierta"
+Msgstr "
+
+#: Admin / options-init.php: 649
+Msgstr "Fall Down"
+Msgstr "
+
+#: Admin / options-init.php: 650
+Msgstr "Empujar hacia abajo"
+Msgstr "
+
+#: Admin / options-init.php: 651
+Msgstr "Girar el empujador"
+Msgstr "
+
+#: Admin / options-init.php: 652
+Msgstr "Rotación 3D en"
+Msgstr "
+
+#: Admin / options-init.php: 653
+Msgstr "Rotación 3D hacia fuera"
+Msgstr "
+
+#: Admin / options-init.php: 654
+Msgstr "Rotación 3D retardada"
+Msgstr "
+
+#: Admin / options-init.php: 663
+Msgstr "Configuración Social"
+Msgstr "
+
+#: Admin / options-init.php: 669
+Msgstr "Mostrar sección social"
+Msgstr "
+
+#: Admin / options-init.php: 670
+Msgstr "Mostrar u ocultar la sección social en el encabezado".
+Msgstr "
+
+#: Admin / options-init.php: 679
+Msgstr "Enlace RSS"
+Msgstr "
+
+#: Admin / options-init.php: 680
+Msgstr "Inserta tu enlace personalizado para mostrar el icono RSS. Deja en blanco para ocultar el icono."
+Msgstr "
+
+#: Admin / options-init.php: 689
+Msgid "Enlace de Facebook"
+Msgstr "
+
+#: Admin / options-init.php: 690
+Msgstr "
+"Inserte su enlace personalizado para mostrar el icono de Facebook. Deja en blanco para ocultar el icono."
+Msgstr "
+
+#: Admin / options-init.php: 697
+Msgstr "Enlace de Twitter"
+Msgstr "
+
+#: Admin / options-init.php: 698
+Msgstr "
+"Inserta tu enlace personalizado para mostrar el icono de Twitter. Deja en blanco para ocultar el icono."
+Msgstr "
+
+#: Admin / options-init.php: 705
+Msgstr "Enlace de Google Plus"
+Msgstr "
+
+#: Admin / options-init.php: 706
+Msgstr "
+"Inserta tu enlace personalizado para mostrar el icono de Google Plus Dejar en blanco para ocultar"
+"icono."
+Msgstr "
+
+#: Admin / options-init.php: 713
+Msgstr "Enlace de Youtube"
+Msgstr "
+
+#: Admin / options-init.php: 714
+Msgstr "
+"Inserta tu enlace personalizado para mostrar el icono de Youtube. Deja en blanco para ocultar el icono."
+Msgstr "
+
+#: Admin / options-init.php: 720
+Msgstr "Enlace de Skype"
+Msgstr "
+
+#: Admin / options-init.php: 721
+Msgstr "
+"Inserte su enlace personalizado para mostrar el icono de Skype. Deje en blanco para ocultar el icono."
+Msgstr "
+
+#: Admin / options-init.php: 727
+Msgid "Enlace de Pinterest"
+Msgstr "
+
+#: Admin / options-init.php: 728
+Msgstr "
+"Inserte su enlace personalizado para mostrar el icono de Pinterest. Deja en blanco para ocultar el icono."
+Msgstr "
+
+#: Admin / options-init.php: 735
+Msgstr "Enlace Flickr"
+Msgstr "
+
+#: Admin / options-init.php: 736
+Msgstr "
+"Inserta tu enlace personalizado para mostrar el icono de Flickr. Deja en blanco para ocultar el icono."
+Msgstr "
+
+#: Admin / options-init.php: 742
+Msgstr "Enlace Linkedin"
+Msgstr "
+
+#: Admin / options-init.php: 743
+Msgstr "
+"Inserta tu enlace personalizado para mostrar el icono de Linkedin. Deja en blanco para ocultar el icono."
+Msgstr "
+
+#: Admin / options-init.php: 749
+Msgstr "Vimeo Link"
+Msgstr "
+
+#: Admin / options-init.php: 750
+Msgstr "
+"Inserta tu enlace personalizado para mostrar el icono de Vimeo. Deja en blanco para ocultar el icono."
+Msgstr "
+
+#: Admin / options-init.php: 756
+Msgstr "Enlace Instagram"
+Msgstr "
+
+#: Admin / options-init.php: 757
+Msgstr "
+"Inserte el enlace personalizado para mostrar el icono Instagram. Deje en blanco para ocultar el icono."
+Msgstr "
+
+#: Admin / options-init.php: 763
+Msgstr "Link Dribbble"
+Msgstr "
+
+#: Admin / options-init.php: 764
+Msgstr "
+"Inserte su enlace personalizado para mostrar el icono Dribbble. Deje en blanco para ocultar el icono."
+Msgstr "
+
+#: Admin / options-init.php: 770
+Msgid "Enlace de Tumblr"
+Msgstr "
+
+#: Admin / options-init.php: 771
+Msgstr "
+"Inserta tu enlace personalizado para mostrar el ícono de Tumblr. Deja en blanco para ocultar el icono."
+Msgstr "
+
+#: Admin / options-init.php: 778
+Msgstr "Configuración del blog"
+Msgstr "
+
+#: Admin / options-init.php: 784
+Msgstr "Subtítulo de Blog"
+Msgstr "
+
+#: Admin / options-init.php: 785
+Msgstr "Escribir el subtítulo del blog aquí."
+Msgstr "
+
+#: Admin / options-init.php: 786 inc / template-tags.php: 1057
+Msgstr "Blog"
+Msgstr "
+
+#: Admin / options-init.php: 792
+Msgstr "Diseño del blog"
+Msgstr "
+
+#: Admin / options-init.php: 793
+Msgstr "
+"Contenido de la disposición del blog y alineación de la barra lateral. Elija entre Fullwidth, Left"
+"Barra lateral o disposición de la barra lateral derecha."
+Msgstr "
+
+#: Admin / options-init.php: 796 admin / options-init.php: 893
+Msgstr "No hay barra lateral"
+Msgstr "
+
+#: Admin / options-init.php: 800 admin / options-init.php: 897
+Msgstr "Barra lateral izquierda"
+Msgstr "
+
+#: Admin / options-init.php: 804 admin / options-init.php: 901
+Msgstr "Barra lateral derecha"
+Msgstr "
+
+#: Admin / options-init.php: 814
+Msgstr "Imagen Vinculable Vinculable"
+Msgstr "
+
+#: Admin / options-init.php: 815
+Msgstr "Posición del blog Imagen en miniatura vinculable"
+Msgstr "
+
+#: Admin / options-init.php: 824
+Msgstr "Barra lateral de una sola entrada"
+Msgstr "
+
+#: Admin / options-init.php: 825
+Msgstr "Mostrar u ocultar la barra lateral de un solo mensaje"
+Msgstr "
+
+#: Admin / options-init.php: 833 admin / options-init.php: 993
+Msgstr "Mostrar el botón de compartir"
+Msgstr "
+
+#: Admin / options-init.php: 834 admin / options-init.php: 994
+Msgstr "Puede mostrar u ocultar el botón de compartir social de una sola publicación."
+Msgstr "
+
+#: Admin / options-init.php: 843 admin / options-init.php: 1003
+Msgstr "Botón Compartir"
+Msgstr "
+
+#: Admin / options-init.php: 844 admin / options-init.php: 1004
+Msgstr "Marca de verificación para mostrar el botón de compartir"
+Msgstr "
+
+#: Admin / options-init.php: 846 admin / options-init.php: 1006
+Msgid "Facebook"
+Msgstr "
+
+#: Admin / options-init.php: 847 admin / options-init.php: 1007
+Msgstr "Twitter"
+Msgstr "
+
+#: Admin / options-init.php: 848 admin / options-init.php: 1008
+Msgstr "Google+"
+Msgstr "
+
+#: Admin / options-init.php: 849 admin / options-init.php: 1009
+Msgstr "Linkedin"
+Msgstr "
+
+#: Admin / options-init.php: 861
+Msgstr "Navegación posterior"
+Msgstr "
+
+#: Admin / options-init.php: 862
+Msgstr "Navegación de un solo blog"
+Msgstr "
+
+#: Admin / options-init.php: 863
+Msgstr "Artículo anterior Artículo siguiente"
+Msgstr "
+
+#: Admin / options-init.php: 871
+Msgstr "Paginación o navegación de blogs"
+Msgstr "
+
+#: Admin / options-init.php: 872
+Msgstr "El estilo de paginación de blog, la paginación de los mensajes o los mensajes nuevos / antiguos"
+Msgstr "
+
+#: Admin / options-init.php: 873
+Msgid "Entradas más antiguas Entradas más nuevas, paginaciones paginas [1 | 2 | 3 ... 8 | 9]"
+Msgstr "
+
+#: Admin / options-init.php: 874
+Msgstr "Paginación"
+Msgstr "
+
+#: Admin / options-init.php: 875
+Msgstr "Navegación"
+Msgstr "
+
+#: Admin / options-init.php: 883
+Msgstr "Ajustes de la página"
+Msgstr "
+
+#: Admin / options-init.php: 889
+Msgstr "Diseño de página"
+Msgstr "
+
+#: Admin / options-init.php: 890
+Msgstr "
+"Contenido del diseño de página y alineación de la barra lateral Elija entre Fullwidth, Left"
+"Barra lateral o disposición de la barra lateral derecha."
+Msgstr "
+
+#: Admin / options-init.php: 910
+Msgstr "Activar o desactivar globalmente los comentarios de la página"
+Msgstr "
+
+#: Admin / options-init.php: 911
+Msgstr "Activar o desactivar los comentarios de la página."
+Msgstr "
+
+#: Admin / options-init.php: 913
+Msgstr "Deshabilitado"
+Msgstr "
+
+#: Admin / options-init.php: 921
+Msgstr "Configuración de la tienda"
+Msgstr "
+
+#: Admin / options-init.php: 926
+Msgstr "Bloque de producto vinculable"
+Msgstr "
+
+#: Admin / options-init.php: 927
+Msgstr "Hacer que cada bloque de producto pueda ser enlazado"
+Msgstr "
+
+#: Admin / options-init.php: 935
+Msgstr "Límite de visualización del producto de la página de la tienda"
+Msgstr "
+
+#: Admin / options-init.php: 936
+Msgstr "Introduzca el número de publicación que desea mostrar el producto en la página de la tienda."
+Msgstr "
+
+#: Admin / options-init.php: 942
+Msgstr "" "Mostrar categoría de página de la página"
+Msgstr "
+
+#: Admin / options-init.php: 943
+Msgstr "Introduzca el número de publicación que desea mostrar el producto en la página de la categoría de la tienda."
+Msgstr "
+
+#: Admin / options-init.php: 949
+Msgstr "Subcategoría Columna"
+Msgstr "
+
+#: Admin / options-init.php: 950
+Msgstr "
+"Elija el número de columna de la subcategoría Calculado desde el dispositivo medio (col-md-"
+"*)."
+Msgstr "
+
+#: Admin / options-init.php: 952
+Msgstr "3 columnas 1/4"
+Msgstr "
+
+#: Admin / options-init.php: 953
+Msgstr "4 columnas 1/3"
+Msgstr "
+
+#: Admin / options-init.php: 954
+Msgstr "6 columnas 1/2"
+Msgstr "
+
+#: Admin / options-init.php: 955
+Msgstr "12 columnas 1/1"
+Msgstr "
+
+#: Admin / options-init.php: 962
+Msgstr "Clase de cuadrícula de la columna de subcategoría"
+Msgstr "
+
+#: Admin / options-init.php: 963
+Msgstr "
+"Ingrese la columna de la subcategoría de la cuadrícula, sin punto, use el espacio para usar la clase múltiple."
+"El valor predeterminado es (col-md- *)"
+Msgstr "
+
+#: Admin / options-init.php: 969
+Msgstr "Icono del carro"
+Msgstr "
+
+#: Admin / options-init.php: 970
+Msgstr "Mostrar u ocultar el icono del carro en el encabezado"
+Msgstr "
+
+#: Admin / options-init.php: 978
+Msgstr "Mostrar el título del carrito Mini"
+Msgstr "
+
+#: Admin / options-init.php: 987
+Msgstr "Título Mini Carrito"
+Msgstr "
+
+#: Admin / options-init.php: 988
+Msgstr "Su carro"
+Msgstr "
+
+#: Admin / options-init.php: 1023
+Msgstr "Configuración de pie de página"
+Msgstr "
+
+#: Admin / options-init.php: 1030
+Msgstr "Logotipo de pie de página"
+Msgstr "
+
+#: Admin / options-init.php: 1031
+Msgstr "Cambiar el logotipo del pie de página del sitio"
+Msgstr "
+
+#: Admin / options-init.php: 1032
+Msgstr "Ancho del logotipo: Ancho: 60px Altura: 85px"
+Msgstr "
+
+#: Admin / options-init.php: 1038
+Msgstr "Pie de página"
+Msgstr "
+
+#: Admin / options-init.php: 1039
+Msgstr "Cambiar el contacto y la dirección del pie de página"
+Msgstr "
+
+#: Admin / options-init.php: 1045
+Msgstr "Texto de derechos de autor de pie de página"
+Msgstr "
+
+#: Admin / options-init.php: 1046
+Msgstr "Cambiar texto de copyright de pie de página"
+Msgstr "
+
+#: Admin / redux-extensiones / extensiones / hippo_preset_color / hippo_preset_color / field_hippo_preset_color.php: 93
+Msgstr "Transparente"
+Msgstr "
+
+#: Admin / redux-extensiones / extensiones / hippo_repeater / hippo_repeater / field_hippo_repeater.php: 54
+Msgstr "Eliminar"
+Msgstr "
+
+#: Admin / redux-extensiones / extensiones / hippo_repeater / hippo_repeater / field_hippo_repeater.php: 55
+Msgstr "Añadir nuevo"
+Msgstr "
+
+#: Admin / setup / index.php: 62
+#, Formato php
+Msgstr "
+"<Strong> Gracias por elegir el tema de% 1 $ s </ strong> - Estás casi listo"
+"Para configurar su sitio con% 1 $ s theme :)"
+Msgstr "
+
+#: Admin / setup / index.php: 65
+#, Formato php
+Msgstr "Ejecutar el Asistente para la instalación de% s"
+Msgstr "
+
+#: Admin / setup / index.php: 100 admin / setup / index.php: 101
+#, Formato php
+Msgstr "% s Asistente de configuración"
+Msgstr "
+
+#: Admin / setup / index.php: 123
+Msgstr "Introducción"
+Msgstr "
+
+#: Admin / setup / index.php: 131
+Msgstr "Plugins"
+Msgstr "
+
+#: Admin / setup / index.php: 138
+Msgstr "Contenido"
+Msgstr "
+
+#: Admin / setup / index.php: 143
+Msgstr "Logo"
+Msgstr "
+
+#: Admin / setup / index.php: 149
+Msgstr "Personalizar"
+Msgstr "
+
+#: Admin / setup / index.php: 154
+Msgstr "Soporte"
+Msgstr "
+
+#: Admin / setup / index.php: 159
+Msgstr "¡Listo!"
+Msgstr "
+
+#: Admin / setup / index.php: 178
+Msgstr "... verificando"
+Msgstr "
+
+#: Admin / setup / index.php: 218
+Msgstr "Asistente de instalación de Theme & rsaquo;"
+Msgstr "
+
+#: Admin / setup / index.php: 290
+Msgstr "Regresar al panel de WordPress"
+Msgstr "
+
+#: Admin / setup / index.php: 362
+#, Formato php
+Msgstr "Bienvenido al asistente de configuración de% s"
+Msgstr "
+
+#: Admin / setup / index.php: 363
+#, Formato php
+Msgstr "
+"Gracias por elegir el tema% s de ThemeForest. Esta configuración rápida"
+"El asistente le ayudará a configurar su nuevo sitio web.Este asistente instalará"
+"Los plugins de WordPress necesarios, el contenido por defecto, el logotipo y decirle un poco"
+"Acerca de las opciones de Ayuda y Soporte. <br/> <strong> Sólo tardará 5 minutos."
+"</ Strong>"
+Msgstr "
+
+#: Admin / setup / index.php: 364
+Msgstr "
+"No hay tiempo ahora mismo Si no quieres pasar por el asistente, puedes saltar"
+"Y vuelve al tablero de WordPress. Vuelve en cualquier momento si cambias tu"
+"¡mente!"
+Msgstr "
+
+#: Admin / setup / index.php: 367
+Msgstr "¡Vamos!"
+Msgstr "
+
+#: Admin / setup / index.php: 369
+Msgstr "No ahora mismo"
+Msgstr "
+
+#: Admin / setup / index.php: 493
+Msgstr "Complementos requeridos"
+Msgstr "
+
+#: Admin / setup / index.php: 500
+Msgstr "
+"Su sitio web necesita algunos complementos esenciales Los siguientes plugins serán"
+"Instalado:"
+Msgstr "
+
+#: Admin / setup / index.php: 526
+Msgstr "
+"Buenas noticias: todos los plugins ya están instalados y actualizados.
+Msgstr "
+
+#: Admin / setup / index.php: 529
+Msgstr "Puedes agregar y eliminar complementos más adelante dentro de WordPress."
+Msgstr "
+
+#: Admin / setup / index.php: 534 admin / setup / index.php: 682
+#: Admin / setup / index.php: 856 admin / setup / index.php: 936
+#: Post-contents / content-blog-list-one.php: 41
+#: Post-contents / content-blog-list-two.php: 48
+#: Post-contents / content-masonry.php: 25 post-contenido / content.php: 22
+Msgstr "Continuar"
+Msgstr "
+
+#: Admin / setup / index.php: 536 admin / setup / index.php: 684
+#: Admin / setup / index.php: 858
+Msgstr "Omitir este paso"
+Msgstr "
+
+#: Admin / setup / index.php: 578
+Msgstr "No se encontró Slug"
+Msgstr "
+
+#: Admin / setup / index.php: 594
+Msgstr "Activar Plugin"
+Msgstr "
+
+#: Admin / setup / index.php: 609
+Msgstr "Actualizar Plugin"
+Msgstr "
+
+#: Admin / setup / index.php: 624
+Msgstr "Instalar Plugin"
+Msgstr "
+
+#: Admin / setup / index.php: 634
+Msgstr "Éxito"
+Msgstr "
+
+#: Admin / setup / index.php: 645
+Msgstr "Contenido de la demostración"
+Msgstr "
+
+#: Admin / setup / index.php: 647
+Msgstr "
+"Es hora de insertar algún contenido predeterminado para su nuevo sitio web de WordPress."
+"Elija lo que desea insertar a continuación y haga clic en Continuar."
+Msgstr "
+
+#: Admin / setup / index.php: 652
+Msgstr "Artículo"
+Msgstr "
+
+#: Admin / setup / index.php: 653
+Msgstr "Descripción"
+Msgstr "
+
+#: Admin / setup / index.php: 654
+#: Required-plugins / class-tgm-plugin-activation.php: 2639
+Msgstr "Estado"
+Msgstr "
+
+#: Admin / setup / index.php: 677
+Msgstr "
+"Una vez insertado, este contenido se puede gestionar desde el administrador de WordPress"
+"tablero."
+Msgstr "
+
+#: Admin / setup / index.php: 696
+Msgstr "Contenido"
+Msgstr "
+
+#: Admin / setup / index.php: 697
+Msgstr "Esto creará todos los datos de demostración como se ve en la demo."
+Msgstr "
+
+#: Admin / setup / index.php: 698 admin / setup / index.php: 707
+#: Admin / setup / index.php: 716 admin / setup / index.php: 725
+#: Admin / setup / index.php: 734 admin / setup / index.php: 744
+Msgstr "Pendiente".
+Msgstr "
+
+#: Admin / setup / index.php: 699
+Msgstr "Instalar contenido."
+Msgstr "
+
+#: Admin / setup / index.php: 700 admin / setup / index.php: 709
+#: Admin / setup / index.php: 718 admin / setup / index.php: 727
+#: Admin / setup / index.php: 736 admin / setup / index.php: 746
+Msgstr "Éxito".
+Msgstr "
+
+#: Admin / setup / index.php: 705
+Msgstr "Menú"
+Msgstr "
+
+#: Admin / setup / index.php: 706
+Msgstr "Insertar menú predeterminado como se ve en la demo."
+Msgstr "
+
+#: Admin / setup / index.php: 708
+Msgstr "Instalación del menú predeterminado".
+Msgstr "
+
+#: Admin / setup / index.php: 714
+Msgstr "Widgets"
+Msgstr "
+
+#: Admin / setup / index.php: 715
+Msgstr "Insertar widgets de barra lateral predeterminados como se ve en la demo."
+Msgstr "
+
+#: Admin / setup / index.php: 717
+Msgstr "Instalación de widgets predeterminados".
+Msgstr "
+
+#: Admin / setup / index.php: 723
+Msgstr "Opciones"
+Msgstr "
+
+#: Admin / setup / index.php: 724
+Msgstr "Configurar opciones de tema predeterminadas".
+Msgstr "
+
+#: Admin / setup / index.php: 726
+Msgstr "Instalación de opciones de tema predeterminadas".
+Msgstr "
+
+#: Admin / setup / index.php: 732
+Msgstr "Configuración"
+Msgstr "
+
+#: Admin / setup / index.php: 733
+Msgstr "Configurar la configuración de lectura".
+Msgstr "
+
+#: Admin / setup / index.php: 735
+Msgstr "Instalación de la configuración de lectura predeterminada".
+Msgstr "
+
+#: Admin / setup / index.php: 742
+Msgstr "Slider"
+Msgstr "
+
+#: Admin / setup / index.php: 743
+Msgstr "Cargar datos deslizantes".
+Msgstr "
+
+#: Admin / setup / index.php: 745
+Msgstr "Importar la diapositiva deslizante de la revolución."
+Msgstr "
+
+#: Admin / setup / index.php: 760
+Msgstr "No se encontró contenido"
+Msgstr "
+
+#: Admin / setup / index.php: 795
+Msgstr "Error"
+Msgstr "
+
+#: Admin / setup / index.php: 809
+Msgstr "Diseño de Logo & amp;
+Msgstr "
+
+#: Admin / setup / index.php: 811
+Msgstr "
+"Por favor, agregue su logotipo a continuación.Para mejores resultados, el logotipo debe ser un"
+"PNG transparente.El logotipo se puede cambiar en cualquier momento desde el <strong>"
+Sección "Personalizar y RightArrow; Identidad del sitio" </ strong>
+Msgstr "
+
+#: Admin / setup / index.php: 823
+Msgstr "Cargar nuevo logotipo"
+Msgstr "
+
+#: Admin / setup / index.php: 908
+#, Formato php
+Msgstr "
+"La mayoría de los cambios en el sitio web pueden realizarse a través del <strong>% 1 $ s"
+"Opciones </ strong> del menú de WordPress \ n"
+"\ T \ t \ t \ tadmin. Estos incluyen:"
+Msgstr "
+
+#: Admin / setup / index.php: 970
+Msgstr "Aceptar y continuar"
+Msgstr "
+
+#: Admin / setup / index.php: 997
+Msgstr "¡Su sitio web está listo!"
+Msgstr "
+
+#: Admin / setup / index.php: 1009
+Msgstr "Pasos siguientes"
+Msgstr "
+
+#: Admin / setup / index.php: 1019
+Msgstr "Ver su nuevo sitio web!"
+Msgstr "
+
+#: Admin / setup / index.php: 1025
+Msgstr "Más recursos"
+Msgstr "
+
+#: Admin / setup / index.php: 1032
+Msgstr "Aprende a usar WordPress"
+Msgstr "
+
+#: Admin / setup / index.php: 1036
+Msgstr "Dejar una clasificación de un artículo"
+Msgstr "
+
+#: Author-bio.php: 21
+Msgstr "Publicar"
+Msgstr "
+
+#: Author-bio.php: 26
+Msgstr "Web"
+Msgstr "
+
+#: Comments.php: 15
+#, Formato php
+Msgctxt "title title"
+Msgstr "Un comentario"
+Msgstr [1] "% s comentarios"
+Msgstr [0] ""
+Msgstr [1] ""
+
+#: Comments.php: 36
+Msgstr "Navegación de comentarios"
+Msgstr "
+
+#: Comments.php: 38
+Msgstr "Comentarios antiguos"
+Msgstr "
+
+#: Comments.php: 39
+Msgstr "Comentarios más recientes"
+Msgstr "
+
+#: Comments.php: 45
+Msgstr "Los comentarios están cerrados."
+Msgstr "
+
+#: Footer.php: 113
+#, Formato php
+Msgstr "Copyright & copy;% 1 $ s% 2 $ s. Todos los derechos reservados Diseñado por% 3 $ s."
+Msgstr "
+
+#. Tema Nombre del complemento / tema
+#: Footer.php: 115
+Msgstr "Fregadero"
+Msgstr "
+
+#: Footer.php: 123
+#, Formato php
+Msgstr "Orgullosamente alimentado por% 1 $ s"
+Msgstr "
+
+#: Functions.php: 121
+Msgstr "Menú principal"
+Msgstr "
+
+#: Functions.php: 122
+Msgstr "
+"Menú de división de encabezado a la izquierda (este menú sólo es visible si el estilo de encabezado cuatro es"
+"activo)"
+Msgstr "
+
+#: Functions.php: 123
+Msgstr "
+"Menú de división de encabezado a la derecha (este menú sólo es visible si el estilo de encabezado cuatro es"
+"activo)"
+Msgstr "
+
+#: Functions.php: 124
+Msgstr "Menú de pie de página"
+Msgstr "
+
+#: Functions.php: 162
+Msgstr "Barra lateral del blog"
+Msgstr "
+
+#: Functions.php: 164
+Msgstr "Aparece en la barra lateral del blog."
+Msgstr "
+
+#: Functions.php: 172
+Msgstr "Barra lateral de la página"
+Msgstr "
+
+#: Functions.php: 174
+Msgstr "Aparece en la barra lateral de la página."
+Msgstr "
+
+#: Functions.php: 182
+Msgstr "Barra lateral del encabezado de la tienda"
+Msgstr "
+
+#: Functions.php: 184
+Msgstr "Aparece en la Página de Archivo de Tiendas Para mostrar filtros, etiquetas, etc"
+Msgstr "
+
+#: Functions.php: 192
+Msgstr "Elemento de pie de página"
+Msgstr "
+
+#: Functions.php: 194
+Msgstr "Aparece en el pie de página."
+Msgstr "
+
+#: Functions.php: 202
+Msgstr "Fuera de Canvas Manu"
+Msgstr "
+
+#: Functions.php: 204
+Msgstr "Desactivado Menú de lienzo"
+Msgstr "
+
+#: Functions.php: 212 functions.php: 323
+Msgstr "Widget del Menú Mega"
+Msgstr "
+
+#: Functions.php: 214 functions.php: 224 functions.php: 234 functions.php: 244
+#: Functions.php: 254
+Msgstr "Aparece en el menú mega mientras se selecciona desde el elemento de menú nav"
+Msgstr "
+
+#: Functions.php: 222 functions.php: 324
+Msgstr "Mega Menu Widget Two"
+Msgstr "
+
+#: Functions.php: 232 functions.php: 325
+Msgstr "Mega Menu Widget Three"
+Msgstr "
+
+#: Functions.php: 242 functions.php: 326
+Msgstr "Mega Menu Widget Four"
+Msgstr "
+
+#: Functions.php: 252 functions.php: 327
+Msgstr "Mega Menu Widget Five"
+Msgstr "
+
+#: Functions.php: 286
+Msgstr "Título del Menú"
+Msgstr "
+
+#: Functions.php: 293
+Msgstr "Icono de menú"
+Msgstr "
+
+#: Functions.php: 300
+Msgstr "Color del icono del menú"
+Msgstr "
+
+#: Functions.php: 310
+Msgstr "Color de fondo del icono de menú"
+Msgstr "
+
+#: Functions.php: 320
+Msgstr "Barra lateral de Megamenu"
+Msgstr "
+
+#: Functions.php: 322
+Msgstr "- Seleccionar -"
+Msgstr "
+
+#: Functions.php: 334
+Msgstr "Clase Mega de Columna de Menú"
+Msgstr "
+
+#: Functions.php: 344
+Msgstr "Imagen de fondo del menú Mega"
+Msgstr "
+
+#: Functions.php: 372
+Msgctxt "Fuente de Google: activada o desactivada"
+Msgstr "en"
+Msgstr "
+
+#: Header-one.php: 47
+Msgstr "Iniciar sesión"
+Msgstr "
+
+#: Header-one.php: 51
+Msgstr "Cerrar sesión"
+Msgstr "
+
+#: Header-two.php: 80 template-parts / blog-search-form.php: 9
+Msgstr "Buscar"
+Msgstr "
+
+#: Inc / extras.php: 222
+Msgstr "URL del perfil de Google Plus"
+Msgstr "
+
+#: Inc / extras.php: 223
+Msgstr "URL del perfil de Twitter"
+Msgstr "
+
+#: Inc / extras.php: 224
+Msgstr "URL del perfil de Facebook"
+Msgstr "
+
+#: Inc / extras.php: 225
+Msgstr "URL del perfil Linkedin"
+Msgstr "
+
+#: Inc / extras.php: 226
+Msgstr "URL del perfil Github"
+Msgstr "
+
+#: Inc / helper.php: 143 inc / helper.php: 169 inc / helper.php: 192
+Msgstr "Esta función no debe ser llamada antes de woocommerce_init."
+Msgstr "
+
+#: Inc / hippo-navwalker.php: 20 inc / template-tags.php: 460
+#: Visual-composer / templates / home.php: 7
+Msgstr "Inicio"
+Msgstr "
+
+#: Inc / hippo-navwalker.php: 21
+Msgstr "Añadir un menú"
+Msgstr "
+
+#: Inc / template-tags.php: 29
+Msgstr "Página siguiente"
+Msgstr "
+
+#: Inc / template-tags.php: 30
+Msgstr "Página anterior"
+Msgstr "
+
+#: Inc / template-tags.php: 121
+Msgstr "NUEVO POSTE"
+Msgstr "
+
+#: Inc / template-tags.php: 122
+Msgstr "POSTE MAYOR"
+Msgstr "
+
+#: Inc / template-tags.php: 153
+Msgstr "Prev."
+Msgstr "
+
+#: Inc / template-tags.php: 154 plantilla de piezas / post-navigation.php: 32
+#: Woocommerce / loop / pagination.php: 37
+Msgstr "Siguiente"
+Msgstr "
+
+#: Inc / template-tags.php: 461
+#, Formato php
+Msgstr "Archivo por Categoría \"% s \ ""
+Msgstr "
+
+#: Inc / template-tags.php: 462
+#, Formato php
+Msgstr "Resultados de la búsqueda de \"% s \ "Consulta"
+Msgstr "
+
+#: Inc / template-tags.php: 463
+#, Formato php
+Msgstr "Posts Tagged \"% s \ ""
+Msgstr "
+
+#: Inc / template-tags.php: 464
+#, Formato php
+Msgstr "Publicado por% s"
+Msgstr "
+
+#: Inc / template-tags.php: 465
+Msgstr "Error 404"
+Msgstr "
+
+#: Inc / template-tags.php: 979
+Msgstr "Página"
+Msgstr "
+
+#: Inc / template-tags.php: 1020 inc / template-tags.php: 1024
+#: Inc / template-tags.php: 1028
+#, Formato php
+Msgstr "Archivo de:% s"
+Msgstr "
+
+#: Inc / template-tags.php: 1033
+Msgstr "404 no encontrado"
+Msgstr "
+
+#: Inc / template-tags.php: 1037
+#, Formato php
+Msgstr "Resultado de la búsqueda para: \"% s \ ""
+Msgstr "
+
+#: Inc / template-tags.php: 1041
+#, Formato php
+Msgstr "Categoría:% s"
+Msgstr "
+
+#: Inc / template-tags.php: 1045
+#, Formato php
+Msgstr "Tag:% s"
+Msgstr "
+
+#: Inc / template-tags.php: 1049
+#, Formato php
+Msgstr "Puestos de:% s"
+Msgstr "
+
+#: Inc / template-tags.php: 1069 inc / template-tags.php: 1086
+#: Inc / template-tags.php: 1090
+#, Formato php
+Msgstr "% s"
+Msgstr "
+
+#: Inc / template-tags.php: 1251
+Msgstr "Nombre *"
+Msgstr "
+
+#: Inc / template-tags.php: 1258
+Msgstr "Correo electrónico"
+Msgstr "
+
+#: Inc / template-tags.php: 1265
+Msgstr "Sitio web"
+Msgstr "
+
+#: Inc / template-tags.php: 1271
+#, Formato php
+Msgstr "Los campos obligatorios están marcados% s"
+Msgstr "
+
+#: Inc / template-tags.php: 1278
+Msgstr "Comentario"
+Msgstr "
+
+#: Inc / template-tags.php: 1286
+#, Formato php
+Msgstr "Debe estar <a href=\"%s\"> conectado </a> para publicar un comentario."
+Msgstr "
+
+#: Inc / template-tags.php: 1287
+#, Formato php
+Msgstr "
+"Inicio de sesión como <a href=\"%1$s\">% 2 $ s </a>. <A href = \"% 3 $ s \ "title = \" Salir de "
+"Esta cuenta \"> Cerrar sesión? </a> "
+Msgstr "
+
+#: Inc / template-tags.php: 1288
+Msgstr "Su dirección de correo electrónico no será publicada."
+Msgstr "
+
+#: Inc / template-tags.php: 1289
+#, Formato php
+Msgstr "
+"Puede utilizar estas etiquetas <abbr title = \" HyperText Markup Language \ "> HTML </ abbr>
+"Y atributos:% s"
+Msgstr "
+
+#: Inc / template-tags.php: 1292 woocommerce / single-producto-reviews.php: 74
+Msgstr "Dejar una respuesta"
+Msgstr "
+
+#: Inc / template-tags.php: 1293 woocommerce / single-producto-reviews.php: 75
+#, Formato php
+Msgstr "Dejar una respuesta a% s"
+Msgstr "
+
+#: Inc / template-tags.php: 1294
+Msgstr "Cancelar respuesta"
+Msgstr "
+
+#: Inc / template-tags.php: 1295
+Msgstr "Enviar Comentario"
+Msgstr "
+
+#: Inc / template-tags.php: 1374
+Msgstr "Pingback:"
+Msgstr "
+
+#: Inc / template-tags.php: 1374
+Msgstr "(Editar)"
+Msgstr "
+
+#: Inc / template-tags.php: 1405
+Msgstr "Su comentario está a la espera de moderación."
+Msgstr "
+
+#: Inc / template-tags.php: 1417
+Msgstr "Responder"
+Msgstr "
+
+#: Inc / template-tags.php: 1422
+Msgstr "Editar"
+Msgstr "
+
+#: Inc / woocommerce.php: 44
+Msgstr "
+"\norte"
+"<H3> Sink - Tamaño de imagen recomendado: </ h3> \ n"
+<P> <strong> Imágenes de catálogo: </ strong> 500 & times; 745 - Cultivo. </ P> \ n "
+"<p><strong>Single Product Image:</strong> 500 &times; 550 - Crop</p>\n"
+"<p><strong>Product Thumbnails:</strong> 150 &times; 150 - Crop.</p>"
+msgstr ""
+
+#: inc/woocommerce.php:180
+msgid "Policy"
+msgstr ""
+
+#: inc/woocommerce.php:223
+msgid "View Cart"
+msgstr ""
+
+#: inc/woocommerce.php:299 post-contents/content-single.php:48
+msgid "Share this post on Facebook!"
+msgstr ""
+
+#: inc/woocommerce.php:306
+#, php-format
+msgid "Reading: %s"
+msgstr ""
+
+#: inc/woocommerce.php:307 post-contents/content-single.php:58
+msgid "Share this post on Twitter!"
+msgstr ""
+
+#: inc/woocommerce.php:315 post-contents/content-single.php:68
+msgid "Share this post on Google+!"
+msgstr ""
+
+#: inc/woocommerce.php:323 post-contents/content-single.php:78
+msgid "Share this post on Linkedin!"
+msgstr ""
+
+#: inc/woocommerce.php:384
+msgid "Color"
+msgstr ""
+
+#: inc/woocommerce.php:385
+msgid "Image"
+msgstr ""
+
+#: inc/woocommerce.php:451
+msgid "Select terms"
+msgstr ""
+
+#: inc/woocommerce.php:461
+msgid "Select all"
+msgstr ""
+
+#: inc/woocommerce.php:462
+msgid "Select none"
+msgstr ""
+
+#: inc/woocommerce.php:463
+msgid "Add new"
+msgstr ""
+
+#: inc/woocommerce.php:495 inc/woocommerce.php:575
+msgid "Choose an option"
+msgstr ""
+
+#: inc/woocommerce.php:679
+msgid "Left"
+msgstr ""
+
+#: inc/woocommerce.php:680
+msgid "Right"
+msgstr ""
+
+#: inc/woocommerce.php:681
+msgid "Left with space"
+msgstr ""
+
+#: inc/woocommerce.php:682
+msgid "Right with space"
+msgstr ""
+
+#: page-templates/template-vc-woocommerce.php:13
+#: woocommerce/archive-product.php:38
+msgid "More Categories"
+msgstr ""
+
+#: page-templates/template-vc-woocommerce.php:28
+#: woocommerce/archive-product.php:58
+msgid "Product Filter"
+msgstr ""
+
+#: post-contents/content-none.php:6
+msgid "Nothing Found"
+msgstr ""
+
+#: post-contents/content-none.php:13
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: post-contents/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: post-contents/content-none.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: post-contents/content-page.php:4 post-contents/content-search.php:26
+#: post-contents/content-single.php:20
+msgid "Read More"
+msgstr ""
+
+#: post-contents/content-page.php:7
+msgid "Pages:"
+msgstr ""
+
+#: post-contents/content-search.php:11 template-parts/post-posted-on.php:15
+msgid "By"
+msgstr ""
+
+#: post-contents/content-single.php:32
+msgid "Taged In: "
+msgstr ""
+
+#: post-contents/content-single.php:40
+msgid "Share: "
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: required-plugins/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: required-plugins/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: required-plugins/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: required-plugins/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: required-plugins/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: required-plugins/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: required-plugins/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: required-plugins/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: required-plugins/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: required-plugins/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: required-plugins/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: required-plugins/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:393
+#: required-plugins/class-tgm-plugin-activation.php:912
+#: required-plugins/class-tgm-plugin-activation.php:2618
+#: required-plugins/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:394
+#: required-plugins/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:395
+#: required-plugins/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: required-plugins/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: required-plugins/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: required-plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:1019
+#: required-plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:1206
+#: required-plugins/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: required-plugins/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: required-plugins/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: required-plugins/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: required-plugins/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: required-plugins/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: required-plugins/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: required-plugins/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: required-plugins/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: required-plugins/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: required-plugins/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: required-plugins/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: required-plugins/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: required-plugins/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:3594
+#: required-plugins/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:3594
+#: required-plugins/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: required-plugins/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: required-plugins/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: required-plugins/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: required-plugins/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: required-plugins/index.php:37
+msgid "Sink Theme Plugin"
+msgstr ""
+
+#: required-plugins/index.php:49
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: required-plugins/index.php:61
+msgid "Revolution Slider"
+msgstr ""
+
+#: required-plugins/index.php:73
+msgid "Envato Market Plugin for automatic update"
+msgstr ""
+
+#: required-plugins/index.php:84
+msgid "Contact Form 7"
+msgstr ""
+
+#: required-plugins/index.php:90
+msgid "Redux Framework"
+msgstr ""
+
+#: required-plugins/index.php:96
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: required-plugins/index.php:102
+msgid "WooCommerce"
+msgstr ""
+
+#: required-plugins/index.php:108
+msgid "WooCommerce Wishlist"
+msgstr ""
+
+#: template-parts/modal-login.php:7 template-parts/modal-minicart.php:16
+msgid "Close"
+msgstr ""
+
+#: template-parts/modal-login.php:16
+msgid "Sign-In"
+msgstr ""
+
+#: template-parts/modal-login.php:26
+msgid "Username or Email Address"
+msgstr ""
+
+#: template-parts/modal-login.php:34 template-parts/modal-login.php:73
+#: woocommerce/myaccount/form-login.php:50
+#: woocommerce/myaccount/form-login.php:113
+msgid "Password"
+msgstr ""
+
+#: template-parts/modal-login.php:42 template-parts/post-password-form.php:21
+#: woocommerce/single-product-reviews.php:84
+msgid "Submit"
+msgstr ""
+
+#: template-parts/modal-login.php:50
+msgid "Forgot your password?"
+msgstr ""
+
+#: template-parts/modal-login.php:58 template-parts/modal-login.php:91
+#: woocommerce/myaccount/form-login.php:83
+#: woocommerce/myaccount/form-login.php:129
+msgid "Register"
+msgstr ""
+
+#: template-parts/modal-login.php:66 woocommerce/myaccount/form-login.php:92
+msgid "Username"
+msgstr ""
+
+#: template-parts/modal-login.php:78 woocommerce/single-product-reviews.php:81
+msgid "Email"
+msgstr ""
+
+#: template-parts/modal-minicart.php:13
+msgid "Cart"
+msgstr ""
+
+#: template-parts/modal-search-form.php:17
+msgid "Search product"
+msgstr ""
+
+#: template-parts/modal-search-form.php:19
+msgid "Search post"
+msgstr ""
+
+#: template-parts/post-navigation.php:21 woocommerce/loop/pagination.php:36
+msgid "Prev"
+msgstr ""
+
+#: template-parts/post-password-form.php:11
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: template-parts/post-password-form.php:16
+msgid "Password:"
+msgstr ""
+
+#: template-parts/post-posted-on.php:22
+msgid "In"
+msgstr ""
+
+#: template-parts/post-posted-on.php:23
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: template-parts/post-posted-on.php:29
+msgid "Edit Post"
+msgstr ""
+
+#: template-parts/posts-navigation.php:9
+msgid "Older Entries"
+msgstr ""
+
+#: template-parts/posts-navigation.php:17
+msgid "Newer Entries"
+msgstr ""
+
+#: visual-composer/overrides/hippo_product_cats.php:39
+#: woocommerce/content-product_cat.php:40
+msgid "Find out More"
+msgstr ""
+
+#: visual-composer/overrides/hippo_products.php:54
+#: woocommerce/content-product.php:65
+msgid "Out of stock"
+msgstr ""
+
+#: visual-composer/overrides/hippo_products.php:58
+#: woocommerce/content-product.php:69
+msgid "Sale!"
+msgstr ""
+
+#: visual-composer/overrides/hippo_products.php:113
+msgid "No product post found."
+msgstr ""
+
+#: visual-composer/templates/about-us.php:7
+msgid "About Us"
+msgstr ""
+
+#: visual-composer/templates/contact-one.php:7
+msgid "Contact One"
+msgstr ""
+
+#: visual-composer/templates/contact-two.php:7
+msgid "Contact Two"
+msgstr ""
+
+#: visual-composer/templates/faq.php:7
+msgid "Faq"
+msgstr ""
+
+#: visual-composer/templates/home-shadow-less.php:7
+msgid "Home Shadow Less"
+msgstr ""
+
+#: visual-composer/templates/home-style-five.php:7
+msgid "Home Style Five"
+msgstr ""
+
+#: visual-composer/templates/home-style-four.php:7
+msgid "Home Style Four"
+msgstr ""
+
+#: visual-composer/templates/home-style-seven.php:7
+#: visual-composer/templates/home-style-three.php:7
+msgid "Home Style Three"
+msgstr ""
+
+#: visual-composer/templates/home-style-six.php:7
+msgid "Home Style Six"
+msgstr ""
+
+#: visual-composer/templates/home-style-two.php:7
+msgid "Home Style Two"
+msgstr ""
+
+#: visual-composer/templates/shiping-information.php:7
+msgid "Shipping Information"
+msgstr ""
+
+#: visual-composer/visual-composer.php:92
+msgid "Row Style"
+msgstr ""
+
+#: visual-composer/visual-composer.php:95
+msgid "Fixed Width"
+msgstr ""
+
+#: visual-composer/visual-composer.php:97
+msgid "Full Width"
+msgstr ""
+
+#: visual-composer/visual-composer.php:99
+msgid "Container width"
+msgstr ""
+
+#: visual-composer/visual-composer.php:111
+msgid "Custom column class?"
+msgstr ""
+
+#: visual-composer/visual-composer.php:113
+msgid "Add class on column like: col-ms-6, hidden-ms"
+msgstr ""
+
+#: visual-composer/visual-composer.php:114
+msgid "Custom column"
+msgstr ""
+
+#: visual-composer/visual-composer.php:118
+msgid "Add Clear fix after this column?"
+msgstr ""
+
+#: visual-composer/visual-composer.php:120
+msgid "If checked, a div appended after this column with clearfix class"
+msgstr ""
+
+#: visual-composer/visual-composer.php:122
+#: visual-composer/visual-composer.php:136
+msgid "Clear Columns"
+msgstr ""
+
+#: visual-composer/visual-composer.php:126
+msgid "Clear fix visibility class(es):"
+msgstr ""
+
+#: visual-composer/visual-composer.php:128
+msgid ""
+"Clearfix div activated on this class like: <code>visible-sm-block</code> or "
+"<code>visible-xs-inline</code>. <br>Available <code>visible-*-block</code> "
+"<code>visible-*-inline-block</code> <code>visible-*-inline</code>). Use "
+"multiple with space."
+msgstr ""
+
+#: visual-composer/visual-composer.php:154
+msgid "Select a product category"
+msgstr ""
+
+#: visual-composer/visual-composer.php:164
+msgid "Add Product Category Link"
+msgstr ""
+
+#: visual-composer/visual-composer.php:166
+msgid "If checked, you can choose a product category to show as link."
+msgstr ""
+
+#: visual-composer/visual-composer.php:168
+#: visual-composer/visual-composer.php:180
+msgid "Product Category Link"
+msgstr ""
+
+#: visual-composer/visual-composer.php:172
+msgid "Choose a product category"
+msgstr ""
+
+#: visual-composer/visual-composer.php:174
+msgid "Choose a product category to display category link."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:48
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:50
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:43
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:48 woocommerce/cart/cart-totals.php:49
+#: woocommerce/cart/mini-cart.php:76
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:70 woocommerce/cart/cart-totals.php:71
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:86
+#, php-format
+msgid "estimated for %s"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:107 woocommerce/cart/cart-totals.php:108
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:58
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:93
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:99
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:117
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:54 woocommerce/cart/mini-cart.php:59
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:86
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:136
+msgid "Have a coupon code ?"
+msgstr ""
+
+#: woocommerce/cart/cart.php:138
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:144
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:60
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:69
+msgid "No products in the cart"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:25
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:35
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:41
+#: woocommerce/cart/shipping-calculator.php:45
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:56
+#: woocommerce/cart/shipping-calculator.php:67
+#: woocommerce/cart/shipping-calculator.php:74
+#: woocommerce/cart/shipping-calculator.php:88
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:75
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:99
+#: woocommerce/cart/shipping-calculator.php:103
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:114
+#: woocommerce/cart/shipping-calculator.php:119
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:127
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:52
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:33
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:33
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:41
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:45
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:30
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:31
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:38
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:34
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:65
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:37
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you need assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:48
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the \"Update Totals\" button before placing your order. You "
+"may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:50
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:35
+#: woocommerce/myaccount/form-login.php:59
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:42
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:62
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:67
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:102
+msgid "Email address"
+msgstr "DirecciÃ³n email"
+
+#: woocommerce/myaccount/form-login.php:121
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:26
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:29
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:39
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:26
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:29
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:34
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:47
+#: woocommerce/wishlist-view.php:32
+msgid "Save"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:36
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:74
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:99
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:100
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:101
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:102
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:103
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:117
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:78
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:56
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:35
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:24
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:44
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:53
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:25
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:22
+msgid "Edit title"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:36
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:68 woocommerce/wishlist-view.php:147
+msgid "Product Name"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:74 woocommerce/wishlist-view.php:153
+msgid "Unit Price"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:84 woocommerce/wishlist-view.php:159
+msgid "Stock Status"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:136 woocommerce/wishlist-view.php:212
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:154
+msgid "Free!"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:160
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:160
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:170
+#, php-format
+msgid "Added on : %s"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:182
+msgid "Move"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:194
+msgid "Shared"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:196
+msgid "Private"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:198
+msgid "Public"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:212
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:222
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:239
+msgid "Add the selected products to the cart"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:247 woocommerce/wishlist-view.php:292
+msgid "Ask for an estimate"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:282
+msgid "Your email"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid ""
+"http://themeforest.net/item/sink-minimal-woocommerce-wordpress-theme/13390799"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Sink - Minimal WooCommerce WordPress Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeHippo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/themehippo"
+msgstr ""
+
+#: header-four.php:66 header-three.php:47 header-two.php:73
+msgid "xxx"
+msgstr "Prueba"

@@ -44,8 +44,19 @@ defined('ABSPATH') or die('Keep Silent');
                                 <a data-toggle="modal" href="#login"><i class="zmdi zmdi-account"></i></a>
                             <?php else : ?>
                                 <a data-toggle="tooltip" href="<?php echo esc_url(wp_logout_url(home_url('/'))); ?>"
-                                   title="<?php esc_html_e('Sign Out', 'sink') ?>"><i class="zmdi zmdi-square-right zmdi-hc-flip-horizontal"></i></a>
-                            <?php endif; ?>
+                                   title="<?php 
+                                    echo __('Policy', 'es_ES');
+                                //   echo get_template_directory();
+                                    // if(esc_html_e('Sign out', 'es')){
+                                    //     echo 'hola';
+                                    // }else{
+                                    //     echo 'adios';
+                                    // }
+                                   
+                                   ?>"><i class="zmdi zmdi-square-right zmdi-hc-flip-horizontal"></i></a>
+                            <?php endif; 
+                                echo utf8_encode(__('Policy', 'es_ES'));
+                            ?>
                         </div>
 
                         <?php if (function_exists('YITH_WCWL')) :

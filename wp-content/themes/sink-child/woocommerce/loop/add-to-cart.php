@@ -39,6 +39,10 @@
         $icon = 'zmdi-shopping-cart-plus';
         $productUrl = $product->add_to_cart_url() ;
     }
+    foreach($product->get_files() as $key => $d){
+        $productUrl = 'https://avicultura-kiatoski.c9users.io/pdf-viewer?product_id='.$product->id.'&key='.$key;
+        $class = 'product_type_simple add_to_cart_button';
+    }
     echo apply_filters( 'woocommerce_loop_add_to_cart_link',
                         sprintf( '<a rel="nofollow" href="%s" data-quantity="%s" data-product_id="%s" data-product_sku="%s" class="%s">%s</a>',
                                  //Url a cambiar cuando el producto está comprado
