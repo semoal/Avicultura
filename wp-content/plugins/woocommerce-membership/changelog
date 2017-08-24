@@ -1,0 +1,127 @@
+Version 2.2.2, 20 April 2017
+------------------------------------------------------------------------------------
+* Fix - Problems with restricting access to variable products
+* Tweak - Updated Select2 script to improve compatibility with other plugins
+* Tweak - Other minor bug fixes and improvements
+
+Version 2.2.1, 5 April 2017
+------------------------------------------------------------------------------------
+* Feature - New option to add all new users to specific membership plan
+* Fix - Shop manager unable to save plugin settings
+* Fix - Expiration date is set for members who have plans with no expiration
+* Fix - Full product description not displayed for products with restricted access
+* Tweak - Improved compatibility with WooCommerce 3.0
+* Tweak - Other minor bug fixes and improvements
+
+Version 2.2, 22 June 2016
+------------------------------------------------------------------------------------
+* Fix - Access restriction by URL issue
+* Fix - URL restriction rules are reset on some occasions
+* Fix - Issue related to creation of new WooCommerce variations
+* Fix - Several issues related to CSV export tool
+* Fix - Notices on WooCommerce emails page
+* Tweak - All widgets are now supported by Visual Composer
+* Tweak - Enabled membership plan enable/disable actions directly from plan list
+* Tweak - Other minor bug fixes and improvements
+
+Version 2.1, 7 February 2016
+------------------------------------------------------------------------------------
+* Feature - Multiple users can now be granted access at once from Users page
+* Feature - File downloads are now automatically restricted on membership expiration
+* Feature - Option to enable content restrictions for admin user for testing purposes
+* Feature - Added support for automatic updates
+* Fix - Limitation of member export tool
+* Tweak - Improved language file loading - now also looks in WP_LANG_DIR
+* Tweak - Other minor bug fixes and improvements
+
+Version 2.0.5, 9 November 2015
+------------------------------------------------------------------------------------
+* Fix - Bug related to non-unique taxonomy term slug
+
+Version 2.0.4, 17 September 2015
+------------------------------------------------------------------------------------
+* Fix - Several bugs related to display of variation product meta
+* Fix - Problems saving linked plan details
+* Tweak - Other minor bug fixes and improvements
+
+Version 2.0.3, 14 June 2015
+------------------------------------------------------------------------------------
+* Fix - Bug related to membership being activated multiple times
+
+Version 2.0.2, 12 June 2015
+------------------------------------------------------------------------------------
+* Fix - Fixed a few typos in the code
+
+Version 2.0.1, 8 June 2015
+------------------------------------------------------------------------------------
+* Fix - Problem of plans not saving for simple products
+
+Version 2.0, 2 June 2015
+------------------------------------------------------------------------------------
+* Feature - Conditionally restrict access to URLs with wildcard support
+* Feature - New shortcodes and user functions to display membership information
+* Feature - Option to send membership expiration reminders at predefined intervals
+* Fix - Not possible to remove linked plan
+* Fix - Problem related to linked products when product type is changed
+* Tweak - Improved members list on plan's page: added pagination and search
+* Tweak - Improved compatibility with The Events Calendar and Sensei plugins
+* Tweak - Improved member purchases handling within one plan
+* Tweak - Improved the way product and member counts are retrieved for membership plans
+* Tweak - Small changes related to functionality on demo site
+* Tweak - Other minor bug fixes and improvements
+
+Version 1.2, 25 February 2015
+------------------------------------------------------------------------------------
+* Feature - Method that redirects users to custom URL when post is restricted
+* Feature - Export To CSV functionality to export members of specific plan
+* Feature - Method to change membership expiration date from plan page
+* Feature - Option to restrict access to WooCommerce products
+* Feature - Option to make WooCommerce products not purchasable by non-members
+* Feature - Added Settings page under Membership menu
+* Fix - Bug that allowed access to restricted content when no plan was selected
+* Tweak - Optimized loading of admin area assets
+* Tweak - Other minor bug fixes and improvements
+
+Version 1.1.4, 19 February 2015
+------------------------------------------------------------------------------------
+* Fix - Fix for WooCommerce 2.3 compatibility issue (cosmetic issues only)
+* Fix - Problems saving membership plan after pressing Enter key
+
+Version 1.1.3, 3 January 2015
+------------------------------------------------------------------------------------
+* Fix - Bug related to membership expiration
+
+Version 1.1.2, 22 December 2014
+------------------------------------------------------------------------------------
+* Tweak - Support for inner shortcodes
+* Tweak - Users with role "administrator" can now view shortcode content by default
+
+Version 1.1.1, 17 December 2014
+------------------------------------------------------------------------------------
+* Fix - Bug related to membership plan key existence checks
+* Fix - Bug that prevented memberships from being expired
+* Fix - Bug/typo in get_time_zone function
+* Tweak - Improved compatibility with WooCommerce 2.0 and 2.1
+
+Version 1.1, 11 September 2014
+------------------------------------------------------------------------------------
+* Feature - Option to expire memberships after a pre-defined amount of time
+* Feature - New post/page access restriction options to cover more scenarios
+* Feature - Membership Granted and Membership Expired emails
+* Feature - Function that detects duplicate websites to suppress customer emails
+* Feature - Option to add/remove members to/from a membership plan manually
+* Feature - Support for WooCommerce Dynamic Pricing & Discounts Extension
+* Feature - Linked plans feature that allow content drip feed functionality
+* Feature - Bulk post edit capabilities
+* Tweak - Other minor bug fixes and improvements
+
+Version 1.0.1, 1 September 2014
+------------------------------------------------------------------------------------
+* Feature - Functions to restrict access to content from within templates
+* Fix - Fixed "Can't use method return value in write context" bug in older PHP versions
+* Tweak - Improved actions and filters available in this plugin
+* Tweak - Improved function that determines system's time zone
+
+Version 1.0, 29 August 2014
+------------------------------------------------------------------------------------
+* Initial release

@@ -1,0 +1,158 @@
+/**
+ * WooCommerce Membership Plugin Backend Styles
+ */
+.rpwcm_tabs_container {
+    width: 100%;
+    /* min-width: 850px; */
+}
+.rpwcm_tabs_container {
+    border-bottom: 1px solid #ccc;
+    margin-right: 20px;
+}
+.rpwcm_settings_container {
+    width: 100%;
+    min-width: 500px;
+    float: left;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    background-color: #fcfcfc;
+}
+.rpwcm_settings_container tr {
+    height: 45px;
+}
+.rpwcm_settings_container th {
+    width: 300px;
+    padding: 15px 10px 5px 0;
+}
+.rpwcm_settings_container td {
+    padding: 10px 10px 5px 10px;
+}
+.rpwcm_settings_container h2,
+.rpwcm_settings_container h3 {
+    padding: 10px 0 10px 15px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+.rpwcm_settings_container .form-table {
+    margin: 10px 0 10px 25px;
+    width: auto;
+}
+.rpwcm_settings_container .submit {
+    border-top: 1px solid #dfdfdf;
+    padding: 15px 0 10px 15px;
+}
+.rpwcm_settings_container .rpwcm_field_width {
+    width: 400px;
+}
+
+#rpwcm_url_restriction {
+    padding: 20px 15px 0 15px;
+}
+#rpwcm_url_restriction input,
+#rpwcm_url_restriction select {
+    width: 98% !important;
+    box-shadow: none;
+}
+#rpwcm_url_restriction_add_rule {
+    padding: 15px 15px 0 15px;
+    text-align: right;
+}
+#rpwcm_url_restriction_no_rules {
+    text-align: center;
+}
+#rpwcm_url_restriction_rule_wrapper {
+    display: table;
+    width: 100%;
+}
+.rpwcm_url_restriction_rule {
+    display: table-row;
+}
+.rpwcm_url_restriction_rule_fields {
+    display: table-cell;
+    width: 99%;
+    padding-bottom: 10px;
+}
+.rpwcm_url_restriction_remove {
+    display: table-cell;
+    padding-bottom: 10px;
+}
+.rpwcm_url_restriction_field_url_wrapper,
+.rpwcm_url_restriction_field_method_wrapper,
+.rpwcm_url_restriction_field_plans_wrapper {
+    display: inline-block;
+}
+.rpwcm_url_restriction_field_url_wrapper {
+    width: 33%;
+    float: left;
+}
+.rpwcm_url_restriction_field_method_wrapper {
+    width: 66%;
+    float: left;
+}
+.rpwcm_url_restriction_field_plans_wrapper {
+    width: 33%;
+    float: left;
+    display: none;
+}
+#rpwcm_url_restriction .rpwcm_url_restriction_field_method_wrapper .rpwcm_url_restriction_field_method {
+    width: 100%;
+}
+.rpwcm_url_restriction_remove {
+    width: 1%;
+}
+.rpwcm_url_restriction_field_plans_wrapper {
+    vertical-align: middle;
+}
+.rpwcm_url_restriction_remove {
+    vertical-align: middle;
+}
+.rpwcm_url_restriction_remove_handle {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.rpwcm_url_restriction_remove_handle:hover i {
+    color: red;
+}
+#rpwcm_url_restriction .rpwcm_url_restriction_field_method {
+    height: 42px;
+}
+#rpwcm_url_restriction .rpwcm_url_restriction_field_url {
+    height: 42px;
+    padding-top: 1px;
+    padding-left: 10px;
+}
+.rpwcm_bulk_grant_access {
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #fff;
+    min-width: 255px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.rpwcm_bulk_grant_access_row {
+    padding: 10px 0;
+}
+.rpwcm_bulk_grant_access label {
+    display: block;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+.rpwcm_bulk_grant_access input,
+.rpwcm_bulk_grant_access select {
+    width: 100%;
+}
+.rpwcm_bulk_grant_access_submit_row {
+    padding: 10px 0;
+    text-align: right;
+}
+
+.wrap h2.rpwcm_tabs_container {
+    margin-bottom: 15px;
+}
+div.rpwcm_settings {
+    margin-top: 15px;
+}

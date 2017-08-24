@@ -8,15 +8,14 @@
 if (!defined('ABSPATH')) {
     exit;
 }
-
 ?>
 
 <?php wc_print_notices(); ?>
 
-<?php if (Subscriptio::my_account_supports_tabbed_navigation()): ?>
-    <?php do_action('woocommerce_account_navigation'); ?>
-    <div class="woocommerce-MyAccount-content">
-<?php endif; ?>
+<!--<?php if (Subscriptio::my_account_supports_tabbed_navigation()): ?>-->
+<!--    <?php do_action('woocommerce_account_navigation'); ?>-->
+<!--    <div class="woocommerce-MyAccount-content">-->
+<!--<?php endif; ?>-->
 
 <?php do_action('subscriptio_before_subscription', $subscription); ?>
 
@@ -135,8 +134,8 @@ if (!defined('ABSPATH')) {
     </tbody>
 </table>
 
-<?php define('SUBSCRIPTIO_PRINTING_RELATED_ORDERS', $subscription->id); ?>
-<?php wc_get_template('myaccount/my-orders.php', array('order_count' => -1)); ?>
+<!--<?php define('SUBSCRIPTIO_PRINTING_RELATED_ORDERS', $subscription->id); ?>-->
+<!--<?php wc_get_template('myaccount/my-orders.php', array('order_count' => -1)); ?>-->
 
 <?php do_action('subscriptio_after_subscription', $subscription); ?>
 

@@ -182,7 +182,9 @@
                                                     $text = 'Leer revista';
                                                     foreach($download as $key => $d){
                                                     echo '<a rel="nofollow" href="/pdf-viewer?product_id='.$product->id.'&key='.$key.'"data-quantity="1" data-product_id="93" data-product_sku="2345-45" class="product_type_simple add_to_cart_button"><i class="zmdi '.$icon.'"></i> '.$text.'</a>';
-                                                } 
+                                                    woocommerce_template_loop_add_to_cart();
+                                                        
+                                                    } 
                                                 }else{
                                                     $icon = 'zmdi-shopping-cart-plus';
                                                     $text = 'Añadir al carrito';

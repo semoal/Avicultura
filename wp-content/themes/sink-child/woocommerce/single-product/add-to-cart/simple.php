@@ -31,15 +31,16 @@
     
     <?php do_action( 'woocommerce_before_add_to_cart_form' ); 
     
-        if(count($product->get_files())>0){
+        // if(count($product->get_files())>0){
             
-            foreach($product->get_files() as $key => $d){
-                echo '<form class="cart" method="post" action="https://avicultura-kiatoski.c9users.io/pdf-viewer?product_id='.$product->id.'&key='.$key.'">'; 
-            }
+        //     foreach($product->get_files() as $key => $d){
+        //         echo '<form class="cart" method="post" action="https://avicultura-kiatoski.c9users.io/pdf-viewer?product_id='.$product->id.'&key='.$key.'">'; 
+        //     }
             
-        }else{
-            echo '<form class="cart" method="post" enctype="multipart/form-data">';
-        }
+        // }else{
+        //     echo '<form class="cart" method="post" enctype="multipart/form-data">';
+        // }
+        echo '<form class="cart" method="post" enctype="multipart/form-data">';
     ?>
 
     
@@ -60,25 +61,30 @@
         ?>
 
         <input type="hidden" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>"/>
-
+         <button type="submit" class="single_add_to_cart_button button alt buy_magazine">
+                <i class="zmdi zmdi-shopping-cart-plus"></i>
+                <?php echo esc_html("Añadir al carrito"); ?>
+        </button>
         <?php
         $current_user = wp_get_current_user();
         if ( wc_customer_bought_product( $current_user->user_email, $current_user->ID, $product->id)) {
             $icon = 'zmdi-eye';
             $text = 'Leer revista';
-        }else{
-            $icon = 'zmdi-shopping-cart-plus';
-            $text = 'Añadir al carrito';
-        }
+             foreach($product->get_files() as $key => $d){
+                $productUrl = $_SERVER['HOST'].'/pdf-viewer?product_id='.$product->id.'&key='.$key;
+            }
         ?>
-        <button type="submit" class="single_add_to_cart_button button alt">
+        <a href="<?php echo $productUrl ?>">
+            <button type="button" class="single_add_to_cart_button button alt read_magazine">
                 <i class="zmdi <?php echo $icon?>"></i>
                 <?php echo esc_html($text); ?>
             </button>
-        
+        </a>
+        <?php
+        }
+        ?>
         <?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
     </form>
-    
     <?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>
 
 <?php endif;

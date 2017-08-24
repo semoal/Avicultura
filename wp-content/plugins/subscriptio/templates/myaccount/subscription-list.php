@@ -24,16 +24,17 @@ if (!defined('ABSPATH')) {
         <thead>
             <tr>
                 <th class="subscriptio_list_id"><?php _e('ID', 'subscriptio'); ?></th>
-                <th class="subscriptio_list_status"><?php _e('Status', 'subscriptio'); ?></th>
-                <th class="subscriptio_list_product"><?php _e('Products', 'subscriptio'); ?></th>
-                <th class="subscriptio_list_recurring"><?php _e('Recurring', 'subscriptio'); ?></th>
+                <th class="subscriptio_list_status"><?php _e('Estado', 'subscriptio'); ?></th>
+                <th class="subscriptio_list_product"><?php _e('Producto', 'subscriptio'); ?></th>
+                <th class="subscriptio_list_recurring"><?php _e('Pago', 'subscriptio'); ?></th>
                 <th class="subscriptio_list_actions">&nbsp;</th>
             </tr>
         </thead>
 
         <tbody>
-
-        <?php foreach ($subscriptions as $subscription): ?>
+        
+        <?php 
+        foreach ($subscriptions as $subscription): ?>
 
             <tr class="subscriptio_subscription_list_subscription">
                 <td data-title="<?php _e('ID', 'subscriptio'); ?>" class="subscriptio_list_id"><?php echo '<a href="' . $subscription->get_frontend_link('view-subscription') . '">' . $subscription->get_subscription_number() . '</a>'; ?></td>

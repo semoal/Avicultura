@@ -30,29 +30,16 @@
     } else {
         $class = '';
     }
-    
-    $current_user = wp_get_current_user();
-    if ( wc_customer_bought_product( $current_user->user_email, $current_user->ID, $product->id)) {
-        $icon = 'zmdi-eye';
-        $productUrl = 'www.google.es';
-    }else{
-        $icon = 'zmdi-shopping-cart-plus';
-        $productUrl = $product->add_to_cart_url() ;
-    }
-    foreach($product->get_files() as $key => $d){
-        $productUrl = 'https://avicultura-kiatoski.c9users.io/pdf-viewer?product_id='.$product->id.'&key='.$key;
-        $class = 'product_type_simple add_to_cart_button';
-    }
-    echo apply_filters( 'woocommerce_loop_add_to_cart_link',
-                        sprintf( '<a rel="nofollow" href="%s" data-quantity="%s" data-product_id="%s" data-product_sku="%s" class="%s">%s</a>',
-                                 //Url a cambiar cuando el producto está comprado
-                                 esc_url( $productUrl ),
-                                 esc_attr( isset( $quantity ) ? $quantity : 1 ),
-                                 esc_attr( $product->get_id() ),
-                                 esc_attr( $product->get_sku() ),
-                                 esc_attr( $class ),
-                                 '<i class="waves-effect zmdi '.$icon.' zmdi-hc-fw icon-circle black"></i><div class="loader-wrapper ajax-loading"><svg class="loader" viewBox="0 0 50 50"><circle class="path" cx="25" cy="25" r="20"></circle></svg></div>'
-                                  ),     
-                        $product
-                        );
 
+    echo apply_filters( 'woocommerce_loop_add_to_cart_link',
+    sprintf( '<a rel="nofollow" href="%s" data-quantity="%s" data-product_id="%s" data-product_sku="%s" class="%s">%s</a>',
+             //Url a cambiar cuando el producto está comprado
+             esc_url( $product->add_to_cart_url() ),
+             esc_attr( isset( $quantity ) ? $quantity : 1 ),
+             esc_attr( $product->get_id() ),
+             esc_attr( $product->get_sku() ),
+             esc_attr( $class ),
+             '<i class="waves-effect zmdi zmdi-shopping-cart-plus zmdi-hc-fw icon-circle black"></i><div class="loader-wrapper ajax-loading"><svg class="loader" viewBox="0 0 50 50"><circle class="path" cx="25" cy="25" r="20"></circle></svg></div>'
+              ),     
+    $product
+    );

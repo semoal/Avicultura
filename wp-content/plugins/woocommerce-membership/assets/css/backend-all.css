@@ -1,0 +1,302 @@
+/**
+ * WooCommerce Membership Plugin Backend Styles (loaded on all admin pages)
+ */
+#adminmenu #menu-posts-membership_plan .menu-icon-post div.wp-menu-image:before,
+#adminmenu #menu-posts-membership_plan .menu-icon-membership_plan div.wp-menu-image:before {
+    font-family: FontAwesome !important;
+    font-size: 1.1em !important;
+    content: "\f0c0";
+    position: relative;
+    top: 2px;
+}
+
+#rpwcm_membership_plan_details .handlediv,
+#rpwcm_membership_plan_details h3.hndle {
+    display: none;
+}
+#rpwcm_membership_plan_details .inside {
+    padding: 0;
+    margin: 0;
+}
+#membership_plan_data {
+    padding: 24px;
+}
+#membership_plan_data h2 {
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-size: 21px;
+    line-height: 1.2;
+}
+.membership_plan_details_title_does_not_exist {
+    font-style: italic;
+    color: #eee;
+}
+.membership_plan_subheading {
+    margin: 0;
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+    line-height: 1.6em;
+    font-size: 16px;
+}
+.membership_plan_details_key_does_not_exist {
+    font-style: italic;
+    color: #eee;
+}
+
+#rpwcm_membership_plan_actions .inside,
+#rpwcm_membership_plan_options .inside {
+    margin: 0;
+    padding: 0;
+}
+.rpwcm_plan_actions, .rpwcm_plan_grant_access {
+    padding: 8px 12px;
+}
+.rpwcm_plan_actions select {
+    width: 100%;
+}
+.rpwcm_plan_actions_footer, .rpwcm_plan_grant_access_footer {
+    border-top: 1px solid #eee;
+    overflow: hidden;
+    padding: 8px 12px;
+}
+.rpwcm_plan_delete {
+    line-height: 26px;
+    float: left;
+}
+.rpwcm_plan_actions_footer button, .rpwcm_plan_grant_access_footer button {
+    float: right;
+}
+
+.membership_plan_edit_page_status {
+    margin-left: 4px;
+    position: relative;
+    top: -2px;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.membership_plan_status_enabled,
+.membership_plan_status_disabled {
+    color: #ffffff;
+    padding: 2px 5px 2px 5px;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+}
+.membership_plan_status_enabled:hover,
+.membership_plan_status_disabled:hover {
+    color: #ffffff;
+}
+.membership_plan_status_enabled {
+    background-color: #449d44;
+}
+.membership_plan_status_disabled {
+    background-color: #d9534f;
+}
+
+table.wp-list-table span.rpwcm_product_list_header_icon,
+table.wp-list-table span.rpwcm_post_list_header_icon {
+    display: block;
+    position: relative;
+    text-indent: -9999px;
+    height: 1em;
+    width: 1em;
+}
+table.wp-list-table span.rpwcm_product_list_header_icon:before {
+    font-family: FontAwesome;
+    content: "\f0c0";
+    font-size: 0.9em !important;
+    text-indent: 0;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+table.wp-list-table span.rpwcm_post_list_header_icon:before {
+    font-family: FontAwesome;
+    content: "\f023";
+    font-size: 1.1em !important;
+    text-indent: 0;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+table.wp-list-table .column-rpwcm,
+table.wp-list-table .column-rpwcm_membership {
+    width: 46px;
+    text-align: left!important;
+    padding: 0;
+}
+table.wp-list-table i.rpwcm_product_list_icon {
+    padding-top: 9px;
+}
+table.wp-list-table i.rpwcm_post_list_icon {
+    font-size: 1.1em !important;
+    padding-top: 9px;
+}
+
+.rpwcm_post_membership_field {
+    padding-top: 7px;
+    width: 100%;
+}
+.rpwcm_post_membership_field select {
+    width: 100%;
+}
+
+#rpwcm_membership_plan_products .inside,
+#rpwcm_membership_plan_members .inside,
+#rpwcm_membership_plan_linked_plans .inside,
+#rpwcm_membership_plan_posts .inside {
+    margin: 0;
+    padding: 0;
+}
+#rpwcm_membership_plan_products p,
+#rpwcm_membership_plan_members p,
+#rpwcm_membership_plan_linked_plans p,
+#rpwcm_membership_plan_posts p {
+    margin: 0;
+    padding: 10px;
+}
+.rpwcm_membership_plan_item_list {
+    border-spacing: 0px;
+    background-color: #ffffff;
+    width: 100%;
+}
+.rpwcm_membership_plan_item_list thead tr {
+    background-color: #f5f5f5;
+}
+.rpwcm_membership_plan_item_list thead th {
+    font-size: 11px;
+    text-align: left;
+    background-color: #f5f5f5;
+    padding: 8px;
+}
+.rpwcm_membership_plan_item_list tbody td {
+    text-align: left;
+    line-height: 25px;
+    padding: 8px;
+    vertical-align: top;
+    border-bottom: 1px dotted #ececec;
+}
+.rpwcm_membership_plan_item_list tbody tr:last-child td {
+    border: none;
+}
+.rpwcm_membership_plan_item_list tfoot td {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right;
+    padding: 8px;
+}
+.rpwcm_third_width {
+    width: 33%;
+}
+.rpwcm_fourth_width {
+    width: 24%;
+}
+
+div.show_if_rpwcm_simple input.rpwcm_product_page_half_width {
+    min-width: 50px;
+}
+div.show_if_rpwcm_simple select.rpwcm_product_page_half_width {
+    width: 12.5%;
+    min-width: 50px;
+}
+
+table.data_table tr.show_if_rpwcm_variable input.rpwcm_product_page_half_width,
+.wc-metaboxes-wrapper .wc-metabox table.data_table tr.show_if_rpwcm_variable select.rpwcm_product_page_half_width {
+    width: 49.5%!important;
+    min-width: 50px;
+}
+
+.rpwcm_url_mismatch form {
+    padding: 5px 0 15px 0;
+}
+
+.rpwcm_nothing_to_display {
+    font-style: italic;
+    color: #777;
+}
+
+.rpwcm_membership_plan_members_footer_container,
+.rpwcm_membership_plan_linked_plans_footer_container {
+    border-top: 1px solid #e5e5e5;
+    padding: 10px;
+}
+.rpwcm_membership_plan_members_footer_left, .rpwcm_membership_plan_members_footer_middle {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    width: 18%;
+    text-align: left;
+}
+.rpwcm_membership_plan_members_footer_right {
+    float: right;
+    width: 35%;
+    text-align: right;
+}
+#rpwcm_membership_plan_grant_access .inside {
+    margin: 0;
+    padding: 0;
+}
+.rpwcm_membership_plan_members_footer_middle {
+    width: 45%;
+    text-align: center;
+}
+.rpwcm_membership_plan_linked_plans_footer {
+    float: right;
+}
+.rpwcm_membership_plan_members_footer_right .chosen-container-single .chosen-single,
+.rpwcm_membership_plan_linked_plans_footer .chosen-container-single .chosen-single {
+    height: 26px;
+}
+
+.rpwcm_membership_plan_item_list tr .rpwcm_membership_plan_remove_item {
+    color: #d9534f;
+    float: right;
+    padding-right: 5px;
+    display: none;
+}
+.rpwcm_membership_plan_item_list tr:hover .rpwcm_membership_plan_remove_item {
+    display: inline;
+}
+.rpwcm_membership_plan_item_list tr .rpwcm_membership_plan_remove_item a {
+    color: #d9534f;
+}
+
+.rpwcm_bulk_add_plans,
+.rpwcm_bulk_remove_plans,
+.rpwcm_quick_add_plans,
+.rpwcm_quick_remove_plans,
+.rpwcm_post_restriction_method_quick,
+.rpwcm_post_restriction_method_bulk {
+    width: 100%;
+}
+.inline-edit-row fieldset label.inline-edit-rpwcm-bulk span.title,
+.inline-edit-row fieldset label.inline-edit-rpwcm-quick span.title {
+    margin: .2em 0;
+    width: auto;
+}
+
+.rpwcm_field_linked_plan_time_value {
+    position: relative;
+    top: 1px;
+    height: 28px;
+}
+.rpwcm_field_linked_plan_time_unit {
+    position: relative;
+    top: -1px;
+}
+#_rpwcm_plans_chosen .chosen-choices .search-field input,
+#_rpwcm_only_caps_chosen .chosen-choices .search-field input {
+    width: 100%!important;
+}
+
+.rpwcm_row_title_cell {
+    font-size: 14px!important;
+    font-weight: 600;
+}
+
+.rpwcm_plan_options {
+    padding: 12px;
+}

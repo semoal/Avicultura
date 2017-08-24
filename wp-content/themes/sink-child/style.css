@@ -11,3 +11,15 @@ License URI:    http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:    sink-child
 Tags:           two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, custom-menu,  featured-images,  full-width-template, post-formats, sticky-post, theme-options, translation-ready
 */
+
+.woocommerce div.product form.cart .button {
+    font-size: 14px;
+    line-height: 36px !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 20px;
+    border: 0;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+}
