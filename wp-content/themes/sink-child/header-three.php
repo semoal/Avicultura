@@ -32,6 +32,9 @@ defined('ABSPATH') or die('Keep Silent');
                 <div class="col-xs-4">
                     <div class="site-logo text-center">
                         <?php hippo_custom_logo() ?>
+                        	<div class="breadcrumb-wrap">
+								<?php hippo_breadcrumbs(); ?>
+							</div>
                     </div>
                 </div>
                 <!-- /.col -->
