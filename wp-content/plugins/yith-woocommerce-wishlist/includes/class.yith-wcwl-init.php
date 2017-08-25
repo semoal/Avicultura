@@ -352,7 +352,7 @@ if ( ! class_exists( 'YITH_WCWL_Init' ) ) {
 			$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
 			$located = locate_template( array(
-				$woocommerce_base . 'wishlist.js',
+				$_SERVER['HOST'] . 'wishlist.js',
 				'wishlist.js'
 			) );
 

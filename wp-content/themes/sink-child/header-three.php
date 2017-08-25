@@ -57,8 +57,8 @@ defined('ABSPATH') or die('Keep Silent');
                                     // }
                                    
                                    ?>"><i class="zmdi zmdi-square-right zmdi-hc-flip-horizontal"></i></a>
-                            <?php endif; 
-                                echo utf8_encode(__('Policy', 'es_ES'));
+                            <?php 
+                                endif; 
                             ?>
                         </div>
 

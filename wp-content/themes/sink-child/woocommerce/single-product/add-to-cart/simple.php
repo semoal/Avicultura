@@ -61,13 +61,15 @@
         ?>
 
         <input type="hidden" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>"/>
+        <!-- Dejamos el boton de comprar siempre -->
          <button type="submit" class="single_add_to_cart_button button alt buy_magazine">
                 <i class="zmdi zmdi-shopping-cart-plus"></i>
                 <?php echo esc_html("Añadir al carrito"); ?>
         </button>
         <?php
         $current_user = wp_get_current_user();
-        if ( wc_customer_bought_product( $current_user->user_email, $current_user->ID, $product->id)) {
+        //Si el usuario es premium con licencia activa o ha comprado ese producto en concreto le mostramos el botón de leer revista
+        if (wc_customer_bought_product( $current_user->user_email, $current_user->ID, $product->id) || checkIfUserIsPremiumAndActive($user)) {
             $icon = 'zmdi-eye';
             $text = 'Leer revista';
              foreach($product->get_files() as $key => $d){

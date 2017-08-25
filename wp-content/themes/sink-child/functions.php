@@ -1,5 +1,4 @@
 <?php
-	defined( 'ABSPATH' ) or die( 'Keep Silent' );
 
 // ------------------
 // Funcion que elimina la cantidad 
@@ -17,15 +16,13 @@ function user_logged_in_product_already_bought() {
     if (is_user_logged_in()) {
         global $product;
         $current_user = wp_get_current_user();
-        $categoria = $product->get_categories( ', ', ' ' . _n( ' ', '  ', $cat_count, 'woocommerce' ) . ' ', ' ' );
         if ( wc_customer_bought_product( $current_user->user_email, $current_user->ID, $product->id )){
             //Comprobamos si el producto es una suscripción:
             //Si lo es quitamos los botones de comprar y le decimos que ya la ha comprado
-            if($categoria != null & strcmp($categoria,'Suscripciones')){
+            if(checkIfUserIsPremiumAndActive($current_user)){
                 //ocultamos los dos botones ya que no deberias poder comprar dos subscripciones
-                remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart');
-                remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
-                echo ("Ya has comprado esta suscripción");
+                // remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart');
+                // remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
             }
             //El producto no es una suscripcion por lo tanto se puede comprar más de una vez
             else{
@@ -40,11 +37,27 @@ function user_logged_in_product_already_bought() {
 add_action ( 'woocommerce_before_single_product', 'user_logged_in_product_already_bought', 30);
 
 
+function user_bought_product() {
+    if (is_user_logged_in()) {
+        $_pf = new WC_Product_Factory();  
+        $product = $_pf->get_product($_POST['id_product']);
+        $current_user = wp_get_current_user();
+        if ( wc_customer_bought_product( $current_user->user_email, $current_user->ID, $product->id )){
+            echo "hola";
+        }else{
+            echo "no has comprado este producto";
+        }
+    }else{
+        echo "no hay nada";
+        return "tus muelas";
+    }
+}
+add_action('wp_ajax_user_bought_product', 'user_bought_product');
+add_action('wp_ajax_nopriv_user_bought_product', 'user_bought_product');
 // ------------------
 // 1. Change language in the website -- BETA
 
 function my_theme_setup(){
-    
     function mytheme_localised( $locale ) {
         if ( isset( $_GET['l'] ) ) {
             return sanitize_key( $_GET['l'] );
@@ -114,4 +127,58 @@ function bbloomer_user_products_bought() {
     wp_reset_postdata();
      
     return '<div class="woocommerce columns-' . $columns . '">' . ob_get_clean() . '</div>';
+}
+//-----------------
+// Funcion que analiza un usuario y detecta si tiene un plan de suscripcion y este esta activo
+
+function checkIfUserIsPremiumAndActive($user){
+    $user_capabilities = WooCommerce_Membership_User::get_user_capabilities($user);
+    $user_capabilities = WooCommerce_Membership_Plan::enabled_keys_only($user_capabilities);
+    if (count($user_capabilities) > 0) {
+        return true;
+    }else{
+        return false;
+    }
+}
+
+//-----------------
+// Funcion que devuelve la categoria de un producto
+
+function getCategory($product){
+     $categoria = $product->get_categories( ', ', ' ' . _n( ' ', '  ', $cat_count, 'woocommerce' ) . ' ', ' ' );
+     return $categoria;
+}
+
+// Funcion que comprueba si la categoria que le pasamos es la misma que tiene el producto
+
+function checkCategory($product,$category){
+    $categoria = $product->get_categories( ', ', ' ' . _n( ' ', '  ', $cat_count, 'woocommerce' ) . ' ', ' ' );
+    if(strcasecmp($categoria,$category) == 0){
+        return true;
+    }
+    return false;
+}
+
+
+
+// 2. Asociamos una función a la acción
+add_action( 'wp_ajax_is_product_bought', 'is_product_bought' ); // Para usuarios logeados
+add_action( 'wp_ajax_nopriv_is_product_bought', 'is_product_bought' ); // Para usuarios no logeados
+// 3. Escribimos la función de callback
+function is_product_bought() {
+    $status;
+    if (is_user_logged_in()) {
+        $current_user = wp_get_current_user();
+        if (wc_customer_bought_product( $current_user->user_email, $current_user->ID, $_POST['id_product'] )){
+            $status = true;
+            echo json_encode($status);
+        }else{
+            $status = false;
+            echo json_encode($status);
+        }
+    }else{
+        $status = false;
+        echo json_encode($status);
+    }
+   die(); // Importante finalizar el script
 }

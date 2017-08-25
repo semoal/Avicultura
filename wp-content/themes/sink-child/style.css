@@ -23,3 +23,23 @@ Tags:           two-columns, three-columns, left-sidebar, right-sidebar, respons
     margin-right:5px;
     margin-bottom:5px;
 }
+#loadingDiv{
+  background:url("http://i.imgur.com/Y9Kubik.gif");
+  width:50px;
+  height:50px;
+  background-repeat:no-repeat;
+}
+
+
+@media only screen and (max-width: 730px){
+  #login.modal .modal-dialog {
+      width: 90%;
+      margin: 10px auto;
+      top: 100px;
+      z-index:999;
+    }
+  .modal.fade .modal-dialog {
+      width: 90%;
+      margin:10px auto;
+  }
+}
