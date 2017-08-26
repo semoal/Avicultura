@@ -14,7 +14,7 @@
         $product_id = $_REQUEST['product_id'];
         $product = get_product($product_id);
         
-        if(wc_customer_bought_product($customer_email, $user_id, $product_id)){
+        if(wc_customer_bought_product($customer_email, $user_id, $product_id) || checkIfUserIsPremiumAndActive($current_user)){
             $downloads = $product->get_files();
             echo do_shortcode('[pdfviewer width="100%" height="849px"]'.$downloads[$_REQUEST['key']]['file'].'[/pdfviewer]');
         }else{

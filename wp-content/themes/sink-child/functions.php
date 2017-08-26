@@ -36,24 +36,6 @@ function user_logged_in_product_already_bought() {
 }
 add_action ( 'woocommerce_before_single_product', 'user_logged_in_product_already_bought', 30);
 
-
-function user_bought_product() {
-    if (is_user_logged_in()) {
-        $_pf = new WC_Product_Factory();  
-        $product = $_pf->get_product($_POST['id_product']);
-        $current_user = wp_get_current_user();
-        if ( wc_customer_bought_product( $current_user->user_email, $current_user->ID, $product->id )){
-            echo "hola";
-        }else{
-            echo "no has comprado este producto";
-        }
-    }else{
-        echo "no hay nada";
-        return "tus muelas";
-    }
-}
-add_action('wp_ajax_user_bought_product', 'user_bought_product');
-add_action('wp_ajax_nopriv_user_bought_product', 'user_bought_product');
 // ------------------
 // 1. Change language in the website -- BETA
 
@@ -169,7 +151,7 @@ function is_product_bought() {
     $status;
     if (is_user_logged_in()) {
         $current_user = wp_get_current_user();
-        if (wc_customer_bought_product( $current_user->user_email, $current_user->ID, $_POST['id_product'] )){
+        if (wc_customer_bought_product( $current_user->user_email, $current_user->ID, $_POST['id_product']) || checkIfUserIsPremiumAndActive($current_user)){
             $status = true;
             echo json_encode($status);
         }else{
