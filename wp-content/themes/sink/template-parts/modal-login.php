@@ -52,7 +52,8 @@
 				</div>
 				<!-- .card -->
 
-				<?php if ( get_option( 'users_can_register' ) ) : ?>
+				<?php if (true) : ?>
+				<?php //if ( get_option( 'users_can_register' ) ) : ?>
 					<div class="card alt">
 						<div class="toggle"></div>
 						<h2 class="title"><?php esc_html_e( 'Register', 'sink' ); ?>

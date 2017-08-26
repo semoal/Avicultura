@@ -57,15 +57,22 @@ add_action( 'after_setup_theme', 'my_theme_setup' );
 // Don't display products in the suscripcions category on the shop page.
 // Doesn't show the suscription on shop
 // Shows the suscription on suscription page
+// is_admin nos permite ver el producto en la pagina del admin..
 
 function custom_pre_get_posts_query( $q ){
-if (!$q->is_main_query() || !is_shop()) return;
-    $q->set( 'tax_query', array(array(
-    'taxonomy' => 'product_cat',
-    'field' => 'slug',
-    'terms' => array('suscripciones'),
-    'operator' => 'NOT IN'
-    )));
+    if (!$q->is_main_query() || !is_shop() || is_admin()){
+       return; 
+    } 
+
+    $q->set( 'tax_query', array(
+        array(
+            'taxonomy' => 'product_cat',
+            'field' => 'slug',
+            'terms' => array('suscripciones'),
+            'operator' => 'NOT IN'
+            )
+        )
+    );
 }
 add_action( 'pre_get_posts', 'custom_pre_get_posts_query' );
 
@@ -77,20 +84,22 @@ add_action( 'pre_get_posts', 'custom_pre_get_posts_query' );
 
 add_shortcode( 'mis-revistas', 'bbloomer_user_products_bought' );
 function bbloomer_user_products_bought() {
-    global $product, $woocommerce, $woocommerce_loop;
+global $product, $woocommerce, $woocommerce_loop;
     $columns = 3;
     $current_user = wp_get_current_user();
     $args = array(
-        'post_type'             => 'product',
-        'post_status'           => 'publish',
-        'meta_query'            => array(
-            array(
-                'key'           => '_visibility',
-                'value'         => array('catalog', 'visible'),
-                'compare'       => 'IN'
+            'post_type'             => 'product',
+            'post_status'           => 'publish',
+            'tax_query'             => array(
+                array(
+                    'taxonomy'      => 'product_cat',
+                    'terms'         => 'suscripciones',
+                    'field'         => 'slug',
+                    'operator'      => 'NOT IN'
+                )
             )
-        )
     );
+    
     $loop = new WP_Query($args);
      
     ob_start();
@@ -99,9 +108,11 @@ function bbloomer_user_products_bought() {
      
     while ( $loop->have_posts() ) : $loop->the_post();
         $theid = get_the_ID();
-        if ( wc_customer_bought_product( $current_user->user_email, $current_user->ID, $theid ) ) {
-            wc_get_template_part( 'content', 'product' ); 
-        } 
+        if ( wc_customer_bought_product( $current_user->user_email, $current_user->ID, $theid) || checkIfUserIsPremiumAndActive($current_user) ) {
+           wc_get_template_part('content','product');
+        }else{
+            
+        }
     endwhile; 
      
     woocommerce_product_loop_end();
@@ -130,18 +141,6 @@ function getCategory($product){
      $categoria = $product->get_categories( ', ', ' ' . _n( ' ', '  ', $cat_count, 'woocommerce' ) . ' ', ' ' );
      return $categoria;
 }
-
-// Funcion que comprueba si la categoria que le pasamos es la misma que tiene el producto
-
-function checkCategory($product,$category){
-    $categoria = $product->get_categories( ', ', ' ' . _n( ' ', '  ', $cat_count, 'woocommerce' ) . ' ', ' ' );
-    if(strcasecmp($categoria,$category) == 0){
-        return true;
-    }
-    return false;
-}
-
-
 
 // 2. Asociamos una función a la acción
 add_action( 'wp_ajax_is_product_bought', 'is_product_bought' ); // Para usuarios logeados

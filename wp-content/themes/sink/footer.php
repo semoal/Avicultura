@@ -110,19 +110,11 @@
 				<?php else : ?>
 					<p>
 						<?php printf(
-							wp_kses_post( __( 'Copyright &copy; %1$s %2$s. All Rights Reserved. Designed by %3$s.', 'sink' ) ),
+							wp_kses_post( __( 'Copyright &copy; Avicultura. All Rights Reserved.', 'sink' ) ),
 							date( 'Y' ),
-							esc_html__( 'Sink', 'sink' ),
-							"<a href='http://www.themehippo.com' title='Visit themehippo.com!'>ThemeHippo.com</a>"
+							"<a href=".$_SERVER['HOST'].">ThemeHippo.com</a>"
 
 						); ?>
-					</p>
-					<p>
-						<?php
-							printf(
-								wp_kses_post( __( 'Proudly powered by %1$s', 'sink' ) ),
-								"<a href='http://www.wordpress.org' title='WordPress'>WordPress</a>"
-							); ?>
 					</p>
 				<?php endif; ?>
 			</div>

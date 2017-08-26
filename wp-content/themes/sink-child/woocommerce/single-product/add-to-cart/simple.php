@@ -75,13 +75,15 @@
              foreach($product->get_files() as $key => $d){
                 $productUrl = $_SERVER['HOST'].'/pdf-viewer?product_id='.$product->id.'&key='.$key;
             }
+            if(checkIfUserIsPremiumAndActive($current_user)) echo "Ya eres premium";
         ?>
-        <a href="<?php echo $productUrl ?>">
-            <button type="button" class="single_add_to_cart_button button alt read_magazine">
-                <i class="zmdi <?php echo $icon?>"></i>
-                <?php echo esc_html($text); ?>
-            </button>
-        </a>
+        <!-- TODO : Hay que validar si es una suscripcion, si lo es no deebemos mostrar el boton de leer revista aunque este comprado-->
+        <!--<a href="<?php echo $productUrl ?>">-->
+        <!--    <button type="button" class="single_add_to_cart_button button alt read_magazine">-->
+        <!--        <i class="zmdi <?php echo $icon?>"></i>-->
+        <!--        <?php echo esc_html($text); ?>-->
+        <!--    </button>-->
+        <!--</a>-->
         <?php
         }
         ?>

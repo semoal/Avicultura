@@ -48,7 +48,7 @@ defined('ABSPATH') or die('Keep Silent');
                             <?php else : ?>
                                 <a data-toggle="tooltip" href="<?php echo esc_url(wp_logout_url(home_url('/'))); ?>"
                                    title="<?php 
-                                    echo __('Policy', 'es_ES');
+                                    echo __('Cerrar sesión', 'es_ES');
                                 //   echo get_template_directory();
                                     // if(esc_html_e('Sign out', 'es')){
                                     //     echo 'hola';
@@ -66,7 +66,7 @@ defined('ABSPATH') or die('Keep Silent');
                             $wishlist_url = YITH_WCWL()->get_wishlist_url();
                             ?>
                             <div class="wishlist-notify">
-                                <a href="<?php echo esc_url($wishlist_url); ?>">
+                                <a data-toggle="tooltip" title="Deseos" href="<?php echo esc_url($wishlist_url); ?>">
                                     <i class="zmdi zmdi-favorite"></i>
 									<span
                                         id="hippo-wishlist-total"><?php echo number_format_i18n(yith_wcwl_count_products()); ?></span>
