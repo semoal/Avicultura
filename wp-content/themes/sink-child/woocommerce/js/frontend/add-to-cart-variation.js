@@ -1,5 +1,5 @@
 !function(t, a, i, r) {
-    console.log('mierda de gallinas');
+
     var e = function(t) {
         this.$form = t,
         this.$attributeFields = t.find(".variations select"),

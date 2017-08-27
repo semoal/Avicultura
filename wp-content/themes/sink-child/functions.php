@@ -147,9 +147,17 @@ add_action( 'wp_ajax_nopriv_is_product_bought', 'is_product_bought' ); // Para u
 // 3. Escribimos la función de callback
 function is_product_bought() {
     $status;
+    $product = get_product($_POST['id_product']);
+    $variations = $product->get_available_variations();
+    $productId = $_POST['id_product'];
+     foreach($variations as $key => $variation){
+         if(strcasecmp($variation['attributes']['attribute_tipo'],'Online') == 0){
+             $productId = $variation['variation_id'];
+         }
+     }
     if (is_user_logged_in()) {
         $current_user = wp_get_current_user();
-        if (wc_customer_bought_product( $current_user->user_email, $current_user->ID, $_POST['id_product']) || checkIfUserIsPremiumAndActive($current_user)){
+        if (wc_customer_bought_product( $current_user->user_email, $current_user->ID, $productId) || checkIfUserIsPremiumAndActive($current_user)){
             $status = true;
             echo json_encode($status);
         }else{
