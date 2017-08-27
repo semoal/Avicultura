@@ -66,7 +66,7 @@
             <?php do_action( 'woocommerce_mini_cart_contents' ); ?>
         
         <?php else : ?>
-            <li class="empty"><?php esc_html_e( 'No products in the cart', 'sink' ); ?></li>
+            <li class="empty"><?php esc_html_e( 'No products in the cart', 'es' ); ?></li>
         <?php endif; ?>
 
     </ul><!-- end product list -->

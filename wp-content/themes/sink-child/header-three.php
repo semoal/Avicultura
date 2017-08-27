@@ -2,6 +2,14 @@
 defined('ABSPATH') or die('Keep Silent');
 
 ?>
+    <script>
+        document.onreadystatechange = () => {
+          if (document.readyState === 'complete') {
+            document.getElementById('woocommerce_price_filter-1').getElementsByClassName('widget-title')[0].innerHTML = "FILTRAR POR PRECIO";
+            document.getElementById('woocommerce_product_tag_cloud-1').getElementsByClassName('widget-title')[0].innerHTML = "ETIQUETAS DE PRODUCTO";
+          }
+        };
+    </script>
     <header class="header header-style-three clearfix">
         <div class="logo-bar">
             <div class="row">

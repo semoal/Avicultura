@@ -1,5 +1,4 @@
 <?php
-
 // ------------------
 // Funcion que elimina la cantidad 
 
@@ -48,7 +47,7 @@ function my_theme_setup(){
     }
     add_filter( 'locale', 'mytheme_localised' );
     
-    load_theme_textdomain( 'es_ES', get_template_directory() . '/languages' );
+    load_theme_textdomain( 'es', get_template_directory() . '/languages' );
 }
 add_action( 'after_setup_theme', 'my_theme_setup' );
 

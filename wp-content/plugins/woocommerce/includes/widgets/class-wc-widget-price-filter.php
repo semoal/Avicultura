@@ -28,8 +28,8 @@ class WC_Widget_Price_Filter extends WC_Widget {
 		$this->settings           = array(
 			'title'  => array(
 				'type'  => 'text',
-				'std'   => __( 'Filter by price', 'woocommerce' ),
-				'label' => __( 'Title', 'woocommerce' ),
+				'std'   => __( 'Filter by price', 'sink' ),
+				'label' => __( 'Title', 'sink' ),
 			),
 		);
 		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
